@@ -24,7 +24,7 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="navbar.css" rel="stylesheet">
+    <link href="../../assets/navbar.css" rel="stylesheet">
 </head>
 <body>
 
@@ -36,10 +36,10 @@
         <div class="collapse navbar-collapse" id="monNavbar">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../../index.html">Accueil</a>
+                    <a class="nav-link" href="../../index.html">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Lien</a>
+                    <a class="nav-link" href="../dico/index.html">Dictionnaire</a>
                 </li>
                 <!-- BASE -->
                 <li class="nav-item dropdown">
@@ -68,19 +68,203 @@
     </div>
 </nav>
 
+<!-- Main -->
 <main>
     <div class="container">
         <div class="bg-light p-5 rounded row">
             <div class="col-sm-8 mx-auto">
-                <h1>Titre</h1>
-                <p>Plein de texte avce du <code>code</code>. Mais aussi des <a href="#">hyperlien</a> </p>
-                <p>2ème paragraphe</p>
+                <h2>Introduction</h2>
                 <p>
-                    <a class="btn btn-primary" href="#" role="button">Un bouton avec hyperlien &raquo;</a>
+                    Dans cette première section nous allons apprendre les briques élémentaires de la programmation.
+                    C'est à dire, qu'est ce que :
+                    <ul>
+                        <li>une variable</li>
+                        <li>une condition</li>
+                        <li>une boucle</li>
+                        <li>une fonction</li>
+                        <li>un type</li>
+                    </ul>
+                </p>
+                <p class="text-info">
+                    Pour ce faire, nous utiliserons le langage <strong>Python</strong>. Qui est le langage avec la syntaxe la plus simple à utiliser.
+                </p>
+                <p>
+                    Cette partie est destinée aux personnes voulant débuter en informatique. Si vous connaissez déjà les bases, vous pouvez directement passer à la partie suivante.
                 </p>
             </div>
         </div>
     </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Installation</h2>
+                <p>
+                    La première étape est donc de l'<a href="https://www.python.org/downloads/">installer</a>. Toutefois, si vous voulez un éditeur plus complet il est aussi possible d'installer <a href="https://www.spyder-ide.org/">Spyder</a>.
+                    Enfin, si vous voulez les 2 ainsi que d'autres éditeurs utiles vous pouvez installer <a href="https://winpython.github.io/">Winpython</a> ou <a href="https://www.anaconda.com/products/individual-d">Anaconda</a>, qui ne possède pas l'éditeur de base.
+                    Si vous débutez tout juste dans la programmation, je vous conseille l'éditeur de base qui est très simple d'utilisation. Vous pouvez toujours installer les autres plus tard.
+                </p>
+                <p>
+                    Une fois installé, lancer <strong>idle</strong> (qui vient avec python), ou <strong>Spyder</strong>.
+                </p>
+                <p>
+                    Si vous avez choisi idle, vous vous retrouvez sur un interpréteur, c'est-à-dire  que tout ce que vous tapez est directement exécuté.<br>
+                    Si vous marquez <code>2+2</code> et tapez <code>entrer</code>, l'interpréteur vous répondra <code>4</code>.<br>
+                    Afin de pouvoir écrire un programme (donc un ensemble de ligne) vous devez ouvrir un nouveau fichier (<code>file -> new file</code> ou <code>ctrl+n</code>). Une nouvelle fenêtre s'affiche, dans laquelle vous pouvez entrer autant de ligne de code que vous voulez.<br>
+                    Pour exécuter le code il faut alors appuyer sur <code>run</code> ou sur la touche <code>f5</code>.
+                </p>
+                <p>
+                    Attention : il faut à présent rentrer du code. Donc on ne peut plus juste marquer <code>2+2</code>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Hello World !</h2>
+                <p>
+                    Par tradition et afin de vous présenter une fonction utile, <code>print</code>, nous allons coder votre tout premier programme <strong>Hello  World !</strong><br>
+                    Cette fonction permet d'afficher soit un <strong>nombre</strong> <code>print(2+2)</code> soit une <strong>chaine de caractère</strong> qui doit donc se trouver <strong>"entre guillemet"</strong>.<br>
+                    Ainsi, vous pouvez tapez et exécuter votre tout premier programme : <br>
+                    <br><code>print("Hello World !)</code><br><br>
+                    Si tout se passe bien, le programme devrait avoir écrit "Hello World !".<br><br>
+                    Bien, maintenant que tout est en place, passons aux différentes notions.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Variable</h2>
+                <p>
+                    Une variable est un espace de stockage, comme un carton vide labellé.<br>
+                    En python, on <strong>déclare</strong> et <strong>assigne</strong> les variables directement.
+                    Autrement dit, si je veux créer une variable qui s'appelle <code>maVariable</code> et qui a pour valeur <code>1</code>, il me suffit d'écrire :<br>
+                    <code>maVariable = 1</code><br>
+                    Je peux même l'afficher :<br>
+                    <code>print(maVariable)</code><br>
+                    <br>
+                    En suivant le même principe, je peux changer sa valeur :
+                    <code>maVariable = 5</code><br>
+                    Attention, son ancienne valeur est à présent perdue et non retrouvable.
+                </p>
+                <p>
+                    Jusqu'à présent nous avons stocker des entiers, mais il est possible de stocker n'importe quoi, comme une chaîne de caractère à présent :<br>
+                    <code>uneAutreVariable = "du texte quelconque"</code>
+                </p>
+                <p>
+                    <strong>Note</strong> : Le nom d'une variable doit commencer par une lettre et ne peut pas contenir d'espace.<br>
+                    Par convention, la première lettre est minuscule et on utilise la majuscule pour "séparer" les mots, comme ci dessus.
+                </p>
+                <br><br>
+                <h5>Auto-Assignation</h5>
+                <p>
+                    En informatique, il ne faut pas confondre <code>==</code> et <code>=</code> .<br>
+                    Le 1er sert de test. "Est-ce que 2 valeurs sont identique" (dans l'interpréteur idle vous pouvez tapez <code>2==3</code> et il vous répondra <code>false</code>)<br>
+                    Le 2ème sert d'assignation. "La valeur de gauche prend la valeur de droite". Il est important de comprendre que la valeur de gauche est celle en devenir et celle de droite la valeur au moment de la lecture de cette ligne et avant assignation.<br>
+                    En quoi est-ce important ? C'est très simple, en informatique il fréquent d'écrire : <br>
+                    <code>maVariable = maVariable + 1</code><br>
+                    Ce qui mathématiquement n'a pas de sens, ou plutôt pas de solution. Mais, ici, ce que l'on veut dire c'est "maVariable prend pour valeur la valeur qu'elle avait plus un".<br>
+                    Ainsi, si <code>maVariable</code> avait pour valeur <code>5</code> elle vaut à présent <code>6</code>. Vous pouvez tester avec <code>print</code>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Condition</h2>
+                <p>
+                    Une condition permet d'exécuter  une partie de code sous la condition qu'un test soit vrai.<br>
+                    Autrement dit, si une condition est vraie on fait quelque chose, sinon autre chose. En python, cela s'écrit :<br>
+                </p>
+                <pre><code>
+                    maVariable = 5
+                    if( maVariable == 5 ):
+                        maVariable = 3
+                    else:
+                        maVarible = 7
+                </code></pre>
+                <p>
+                    Ici, on compare la valeur de <code>maVariable</code> à l'entier <code>5</code>. S'ils sont égaux on fait une assignation, sinon on fait une autre assignation.
+                </p>
+                <p>
+                    <strong>Note</strong> : On remarque déjà l'importance de ne pas confondre les différents "égals". Il existe une 3ème commande en plus de
+                    <code>if</code> et <code>else</code>. Il s'agit de <code>elif</code> (en python), qui permet d'enchainer les <code>if</code> avant de finir avec le <code>else</code> qui sert de cas par défaut.
+                </p>
+                <pre><code>
+                    maVariable = 5
+                    if( maVariable == 5 ):
+                        maVariable = 3
+                    elif( maVariable == 3 ):
+                        maVariable = 78
+                    elif( maVariable == 6 ):
+                        maVariable = 4
+                    else:
+                        maVarible = 7
+                </code></pre>
+                <p>
+                    <strong>Note</strong> : Le code se lit de haut en bas et dès lors qu'un des tests est vrai. Le programme ignore les suivant jusqu'à la fin du <code>else</code>. Et ne fait le <code>else</code> que si tous les autres tests ont échoué.<br>
+                    Dans l'exemple ci dessus, à la fin du code <code>maVariable</code> ne vaut pas <code>78</code> mais bien <code>3</code>.<br>
+                    Enfin, il est important de noter les tabulations et les ":" qui sont important en python.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Boucle</h2>
+                <p>
+                    Une boucle sert à répéter une partie de code un certain nombre de fois.
+                    Il existe 2 type de boucle :
+                    <ul>
+                        <li>la boucle <code>for</code> : qui permet de répéter le code un nombre fixe de fois</li>
+                        <li>la boucle <code>while</code> : qui permet de répéter un code tant qu'une condition est vraie</li>
+                    </ul>
+                </p>
+                <p>
+                    En python, on les utilise de cette manière :
+                </p>
+                <pre><code>
+                    maVariable = 0
+                    for i in range(10):
+                        maVariable = maVariable + 1
+                    print(maVariable)
+                    <br>
+                    maVariable = 5
+                    while( maVariable < 10 ):
+                        maVariable = maVariable + 1
+                    print(maVariable)
+                </code></pre>
+                <p>
+                    Dans ces 2 cas simple la <code>maVariable</code> vaut <code>5</code> au final. Mais dans le 1er cas on a fait 10 iétrations alors que dans le 2ème
+                    on en a fait autant qu'il en fallait pour arriver à 10 (donc 5 ici).
+                </p>
+                <p>
+                    Il y a plusieurs éléments important à noter :
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
 
 </main>
 

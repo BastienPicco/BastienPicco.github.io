@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Tuto Programmation">
     <meta name="author" content="Bastien Picco">
-    <title>MonSite</title>
+    <title>Accueil</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbars/">
 
@@ -24,7 +24,7 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="navbar.css" rel="stylesheet">
+    <link href="./assets/navbar.css" rel="stylesheet">
 </head>
 <body>
 
@@ -36,10 +36,10 @@
         <div class="collapse navbar-collapse" id="monNavbar">
             <ul class="navbar-nav me-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="https://bastienpicco.github.io/">Accueil</a>
+                    <a class="nav-link active" aria-current="page" href="./index.html">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Lien</a>
+                    <a class="nav-link" href="./src/dico/index.html">Dictionnaire</a>
                 </li>
                 <!-- BASE -->
                 <li class="nav-item dropdown">
@@ -68,41 +68,63 @@
     </div>
 </nav>
 
+<!-- Main -->
 <main>
     <div class="container">
         <div class="bg-light p-5 rounded row">
             <div class="col-sm-8 mx-auto">
-                <h1>Titre</h1>
-                <p>Plein de texte avce du <code>code</code>. Mais aussi des <a href="#">hyperlien</a> </p>
-                <p>2ème paragraphe</p>
+                <h1>Ce site est en cours de "codage" et est donc drastiquement incomplet</h1>
+                <h1>Pensez à revenir plus tard, si vous êtes intéressé</h1><br><br>
+                <h2>Introduction</h2>
                 <p>
-                    <a class="btn btn-primary" href="#" role="button">Un bouton avec hyperlien &raquo;</a>
+                    Ce site a 3 missions principales :
+                    <ul>
+                        <li>Enseigner les bases de la programmation</li>
+                        <li>Fournir des outils et concepts importants</li>
+                        <li>Evoquer des concepts plus avancé pour aller toujours plus loin</li>
+                    </ul>
+                    Ce site est donc orienté vers les personnes débutant ou voulant débuter dans la programmation.
+                </p>
+                <p>
+                    <span style="margin-left:1em"></span>Attention : Ce site est basé sur mon expérience personnelle acquise au cours de mes projets scolaires et personnels. Certaines idées seront donc subjectives ou incomplète et représente
+                    la façon dont j'aurais aimé découvrir ces concepts, à la vue de mes connaissances actuelles. Dont certains importants dont j'aurais aimé avoir connaissance bien plus tôt.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+    
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Utilisation</h2>
+                <p>
+                    Les menus déroulant de la barre de navigation servent à aller à un certain topic directement.
+                    Pour reprendre là où vous en étiez ou suivre votre ordre personnel.
+                </p>
+                <p>
+                    Le dictionnaire, tant qu'à lui, définit succinctement les notions abordées qui n'ont pas forcément de pages dédiées.
+                </p>
+                <p>Chaque notion sera découpée en 2 parties :
+                    <ol>
+                        <li>Les notions essentielles</li>
+                        <li>Des compléments utiles mais non primordiaux pour une personne découvrant le concept</li>
+                    </ol>
+                </p>
+                <p>
+                    <a class="btn btn-primary" href="./src/base/python.html" role="button">Donc, sans plus attendre, allons y ! &raquo;</a>
                 </p>
             </div>
         </div>
     </div>
 
     <br/> <br/> <br/>
-    <ul>
-    <li>python et algo</li>
-    <li>unix de base</li>
-    <li>c</li>
-    <li>git et utilitaire(vs)</li>
-    <li>java + objet</li>
-    <br/>
-    <li>html</li>
-    <br/>
-    <li>Pour Continuer</li>
-    <li>thread/process</li>
-    <li>Semaphore</li>
-    <li>GPU</li>
-    <br/>
-    <li>unity</li>
-    <br/>
-    <li>Dictionnaire Simplifié(vocab)</li>
-    </ul>
-    <br/>
-    <xmp><br/></xmp>
+
+    <code><xmp>
+        <br/>
+        a
+    </xmp></code>
 </main>
 
 <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
