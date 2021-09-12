@@ -9,7 +9,7 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbars/">
 
-    <!-- Bootstrap core CSS 
+    <!-- Bootstrap core CSS
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     -->
     <link href="../../assets/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -19,10 +19,10 @@
 
     <!-- Style -->
     <style>
-    
+
     </style>
 
-    
+
     <!-- Custom styles for this template -->
     <link href="../../assets/navbar.css" rel="stylesheet">
 </head>
@@ -136,6 +136,15 @@
                     Si tout se passe bien, le programme devrait avoir écrit "Hello World !".<br><br>
                     Bien, maintenant que tout est en place, passons aux différentes notions.
                 </p>
+                <p>
+                    Quelques informations utiles :<br />
+                    Pour une ligne donnée, tout ce qui suit un <code>#</code> est considéré comme un commentaire (en python) :
+                    <pre><code>
+                        #Ceci est un commentaire
+                        print("cela s'affiche")  # Ici aussi, print("cela ne s'affiche pas")
+                    </code></pre>
+                    Enfin, si une exécution ne se termine pas (boucle infini) vous pouvez utiliser le raccourci <code>ctrl+c</code> dans l'interpréteur (là où les résultats s'affichent) pour arrêter le programme.
+                </p>
             </div>
         </div>
     </div>
@@ -196,7 +205,7 @@
                     if( maVariable == 5 ):
                         maVariable = 3
                     else:
-                        maVarible = 7
+                        maVariable = 7
                 </code></pre>
                 <p>
                     Ici, on compare la valeur de <code>maVariable</code> à l'entier <code>5</code>. S'ils sont égaux on fait une assignation, sinon on fait une autre assignation.
@@ -213,13 +222,16 @@
                         maVariable = 78
                     elif( maVariable == 6 ):
                         maVariable = 4
+                        maVariable = maVariable + 1
                     else:
-                        maVarible = 7
+                        maVariable = 7
+                    uneAutreVariable = 0
                 </code></pre>
                 <p>
                     <strong>Note</strong> : Le code se lit de haut en bas et dès lors qu'un des tests est vrai. Le programme ignore les suivant jusqu'à la fin du <code>else</code>. Et ne fait le <code>else</code> que si tous les autres tests ont échoué.<br>
                     Dans l'exemple ci dessus, à la fin du code <code>maVariable</code> ne vaut pas <code>78</code> mais bien <code>3</code>.<br>
-                    Enfin, il est important de noter les tabulations et les ":" qui sont important en python.
+                    Enfin, il est important de noter les <strong>tabulations</strong> et les "<strong>:</strong>" qui sont important en python. En effet, les tabulations servent à délimiter le code qui dépend de la condition. Ainsi, si <code>maVariable==6</code> est vraie, alors les 2 lignes suivantes sont exécutées.
+                    De même, le <code>else</code> ne comprend qu'une seule ligne et la dernière ligne fait partie du code "normal" qui sera exécuté sans condition.
                 </p>
             </div>
         </div>
@@ -254,17 +266,104 @@
                     print(maVariable)
                 </code></pre>
                 <p>
-                    Dans ces 2 cas simple la <code>maVariable</code> vaut <code>5</code> au final. Mais dans le 1er cas on a fait 10 iétrations alors que dans le 2ème
+                    Dans ces 2 cas simples la <code>maVariable</code> vaut <code>10</code> au final. Mais dans le 1er cas on a fait 10 itérations alors que dans le 2ème
                     on en a fait autant qu'il en fallait pour arriver à 10 (donc 5 ici).
                 </p>
                 <p>
-                    Il y a plusieurs éléments important à noter :
+                    Il y a plusieurs éléments important à noter :<br>
+                    De la même façon que pour les conditions, les <strong>tabulations</strong> et les "<strong>:</strong>" sont importants et jouent le même rôle que précédemment.<br>
+                </p>
+                <p>
+                    <strong>Pour la boucle <code>for</code> :</strong><br>
+                    <code>for i in range(10)</code> peut se traduire par "On crée une variable <strong>i</strong> qui va prendre, à tour de rôle, la valeur de 0 à 9".<br />
+                    Quelques points importants : la variable <code>i</code> n'existe qu'au sein de la boucle <code>for</code> et n'est plus accessible en dehors. Une méthode simple pour savoir si une variable existe ou pas
+                    et de regarder les tabulations. Si une variable est créée à un niveau de tabulations <strong>n</strong> alors elle est accessible à tous les niveaux <strong>supérieurs ou égaux à n</strong> et inaccessible à tous les niveaux <strong>inférieurs à n</strong>.
+                    De plus, comme remarqué précédemment, en informatique les <strong>index</strong> commencent à 0 !<br />
+                    Donc <code>range(n)</code> permet d'accéder aux nombres de <code>0</code> à <code>n-1</code>. Et <code>range(n, m)</code> permet d'accéder au nombre de <code>n</code> à <code>m-1</code>.
+                    Enfin, la variable <code>i</code> prend la prmeière valeur au début du 1er tour. Et change de valeur à chaque fin de tour jusqu'à ce qu'il n'y en ait plus de disponible.
+                </p>
+                <br />
+                <p>
+                    <strong>Pour la boucle <code>while</code> :</strong><br />
+                    Le fonctionnement est le suivant :
+                    <ol>
+                        <li>On teste la condition</li>
+                        <li>Si elle est vraie on exécute le code et on reteste la condition</li>
+                        <li>On continue jusqu'à ce que la condition soit fausse</li>
+                    </ol>
+                    Ceci implique que l'on peut faire <strong>0</strong> itérations, si la condition est fausse instantanément. Mais surtout, on peut rentrer dans <strong>une boucle infinie</strong> ! <br />
+                    Ceci arrive lorsque la condition, au contraire, n'est jamais fausse. Il est très important de vérifier de ne pas en créer accidentellement.<br />
+                    Ici, on attend que <code>maVariable</code> soit supérieure ou égale à <code>10</code>. Et l'on augmente sa valeur à chaque itération. Donc la condition finira par être vraie.<br />
+                    <strong>Rappel</strong> : Pour arrêter une boucle infinie, avant qu'elle fasse planter votre ordinateur, appuyer sur <code>ctrl+c</code> dans l'interpréteur (là où le code s'exécute).
+                </p>
+                <br />
+                <h5>Imbrication</h5>
+                <p>
+                    Enfin, il est important de noter que l'on peut avoir plusieurs niveaux de tabulations qu'il faut donc aligner correctement, afin d'avoir l'effet voulu.
+                    <pre><code>
+                        maVariable = 0
+                        variable2 = 0
+                        if(variable2 > maVariable):
+                          maVariable = variable2
+                          for i in range(10):
+                            variable2 = variable2 + 2
+                            if(variable2 > maVariable + 10):
+                              maVariable = 100
+                        else:
+                          maVariable = -100
+                    </code></pre>
+                    Ici, il y a 3 niveaux d'imbrication et l'alignement des tabulations permet de savoir le comportement.<br />
+                    Par exemple, nous pouvons voir que le <code>else</code> final se joue si le 1er <code>if</code> est faux alors que le 2ème <code>if</code> ne possède pas de <code>else</code>.
                 </p>
             </div>
         </div>
     </div>
 
     <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Fonction</h2>
+                <p>
+                    Une fonction est une partie de code que l'on peut rappeler. Ainsi, si votre code permet de trouver le nombre minimum d'une liste et que vous avez 2 listes,
+                    il n'est pas la peine de tout retaper. En python, une fonction se définit ainsi :
+                    <pre><code>
+                        def maFonction():
+                          print("Ceci est une fonction")
+                        maFonction()
+                        maFonction()
+                    </code></pre>
+                    Ici, on définit une fonction qui écrit un texte, et on l'appelle 2 fois.
+                </p>
+                <p>
+                    Il est possible de donner des arguments à la fonction. Ce sont comme des variables neutres. elles ne valent rien de spécial lors de la définition et prennent une valeur
+                    lors de l'exécution :
+                    <pre><code>
+                        def maFonctionAddition(argument1, argument2):
+                          print(argument1 + argument2)
+                        maFonctionAddition(5, 15)
+                    </code></pre>
+                    Ici, notre fonction prend 2 arguments et écrit leur somme.
+                </p>
+                <p>
+                    Enfin, à la place, ou en plus, décrire un résultat, une fonction peut le <strong>retourner</strong>. C'est-à-dire, permettre de le récupérer dans la suite du programme pour l'utiliser.
+                    <pre><code>
+                        def additionneur(x, y):
+                          resultat = x + y
+                          return resultat
+
+                        test = additionneur(11, 78)
+                        print(test)
+                    </code></pre>
+                    Ici, à la place d'afficher le résultat de l'addition, le fonction renvoie ce résultat et on le récupère dans une variable que l'on affiche, et que l'on pourrait utiliser pour d'autre chose.
+                </p>
+              </div>
+          </div>
+      </div>
+
+      <br><br>
+
 
 </main>
 
@@ -274,6 +373,6 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 --->
-      
+
 </body>
 </html>
