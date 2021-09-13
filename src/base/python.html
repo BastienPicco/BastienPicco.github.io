@@ -79,10 +79,10 @@
                     C'est à dire, qu'est ce que :
                     <ul>
                         <li>une variable</li>
+                        <li>un type</li>
                         <li>une condition</li>
                         <li>une boucle</li>
                         <li>une fonction</li>
-                        <li>un type</li>
                     </ul>
                 </p>
                 <p class="text-info">
@@ -185,6 +185,42 @@
                     <code>maVariable = maVariable + 1</code><br>
                     Ce qui mathématiquement n'a pas de sens, ou plutôt pas de solution. Mais, ici, ce que l'on veut dire c'est "maVariable prend pour valeur la valeur qu'elle avait plus un".<br>
                     Ainsi, si <code>maVariable</code> avait pour valeur <code>5</code> elle vaut à présent <code>6</code>. Vous pouvez tester avec <code>print</code>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Type</h2>
+                <h5>Simple</h5>
+                <p>
+                    Un type représente la "catégorie" dans laquelle se trouve une variable. Les types de bases sont les suivants :<br>
+                    <ul>
+                        <li><strong>int</strong> (ou integer) : ce sont les <strong>entiers</strong> (ex : -5, 0, 7, 115, ...)</li>
+                        <li><strong>float</strong> : ce sont les <strong>nombres à virgule</strong> (ex : 1.1, 78.89541, 5.0, 7, ...). A noter qu'en informatique on utilise un <strong>point</strong> pour les <strong>virgules</strong>.</li>
+                        <li><strong>str</strong> (ou string) : ce sont les chaînes de caractères, représentés entre <strong>guillemets</strong> (ex : "Bonjour", "ceci est un string", "a", "83", ...)</li>
+                        <li><strong>char</strong> (ou characteres) : ce sont eux qui composent les strings, représentés entre <strong>apostrophes</strong> (ex : 'a', 's', ...)</li>
+                    </ul>
+                </p>
+                <br>
+                <h5>Liste</h5>
+                <p>
+                    Une liste contient plusieurs valeurs/variables de même type. Elle est représentée entre <strong>crochet</strong>, et les éléments sont séparés par des <strong>virgules</strong> :<br>
+                    <pre><code>
+listeDeInt = [1, 2, 78, 95, 5, -6, 75]
+listeDeJour = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
+                    </code></pre>
+                    On peut accéder à un élément d'une liste grâce à son <strong>index</strong>. Il est toutefois, important de noter qu'en informatique, les index vont de <code>0</code> à <code>tailleDeLaListe-1</code><br>
+                    Ainsi, <code>listeDeInt[3]</code> vaut <code>95</code>, <code>listeDeInt[1]</code> vaut <code>2</code> et <code>listeDeJour[0]</code> vaut <code>"lundi"</code>.
+                </p>
+                <p>
+                    Quelques astuces : <br>
+                    En python, on peut utiliser des indices négatifs afin de partir de la fin. Ainsi, <code>listeDeJour[-1]</code> vaut <code>"dimanche"</code>.<br>
+                    On peut utiliser la fonction <code>len</code> pour avoir le nombre d'éléments dans une liste. Ainsi, <code>listeDeJour</code> vaut <code>7</code> et ses index vont de <code>0</code> à <code>len(listeDeJour)-1</code> (donc <code>6</code>, ici).
                 </p>
             </div>
         </div>
@@ -363,6 +399,74 @@
       </div>
 
       <br><br>
+
+      <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Pour continuer</h2>
+                <p>
+                    Si vous venez de découvrir tout cela, je vous conseille de mettre tout ça en pratique dans une multitude de mini-projets. Le but étant de manipuler un maximum afin d'être à l'aise avec toutes les notions de base.
+                    Voici quelques idées idées que vous pouvez coder et qui utilisent la plupart des notions ci-dessus : <br>
+                    <ul>
+                        <li>Une fonction qui prend une liste de nombres et qui renvoie le plus grand : <code>maxi([5, 7, 89, 0, -178, 47])</code> doit retourner <code>89</code></li>
+                        <li>De même, sauf qu'elle renvoie le plus grand entier pair</li>
+                        <li>Une fonction qui prend une liste de nombres et qui retourne la liste trier</li>
+                        <li>Une fonction qui renvoie l'entier <strong>n</strong> jusqu'au quel il faut aller pour que la somme des n premiers entier dépasse strictement 1000 : le code devrait retourner <code>45</code>.</li>
+                    </ul>
+                </p>
+                <p>
+                    Une fois à l'aise avec ces principes vous pouvez utiliser le site <a href="https://projecteuler.net/">Projet Euler</a>. Qui contient un très grand nombre de problèmes algorithmiques. C'est-à-dire,
+                    des problèmes dont la résolution n'utilise que des principes de bases et dont la difficulté réside dans leur agencement.<br>
+                    <strong>Avertissement</strong> : Même en commençant par les niveaux les plus facile, certains problèmes sont loin d'être facile.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Import</h2>
+                <p>
+                    Comme nous l'avons vu, il existe un certain nombre de fonctions pré-défini en python, tel que <code>print()</code> ou <code>len()</code>. Toutefois,
+                    afin de ne pas charger trop de fonctions inutiles pour un code donné, elles ne sont pas toutes accessibles directement, et certaines doivent être <strong>importées</strong>.<br>
+                    Les imports se définissent tout en haut de la page de code, traditionnellement.
+                </p>
+                <pre><code>
+        from numpy import array #importe la fonction array du module numpy
+        from numpy import * #importe tout le module numpy
+        import numpy as np #importe le module numpy et le renomme np
+                </code></pre>
+                <p>
+                    Comme nous venons de le voir, en python, il existe plusieurs façons d'importer un module ou une fonction.
+                    Le renommage est utile, puisque pour utiliser une fonction d'un module on doit taper : <code>nomDuModule.nomDeLaFonction()</code>.<br>
+                    Ici, <code>numpy.array([1, 2, 3, 4])</code> ou <code>np.array([1, 2, 3, 4])</code>.
+                </p>
+                <p>
+                    <strong>Note</strong> : Si votre interpréteur vous informe qu'il ne connaît pas "numpy", il est temps de changer d'interpréteur et d'utiliser spyder.<br>
+                    Il est possible d'avoir les imports en utilisant python de base, sans doute via un autre téléchargement.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Fin</h2>
+                <p>
+                    Vous êtes arrivé à la fin de l'initiation à la programmation !<br>
+                    Si vous pensez maîtriser ces notions de bases vous pouvez passer à la suite <a href="./git.html">ici</a>, ou continuer à vous entraîner.<br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
 
 
 </main>
