@@ -75,15 +75,130 @@
     <div class="container">
         <div class="bg-light p-5 rounded row">
             <div class="col-sm-8 mx-auto">
-                <h1>Titre</h1>
-                <p>Plein de texte avce du <code>code</code>. Mais aussi des <a href="#">hyperlien</a> </p>
-                <p>2ème paragraphe</p>
+                <h1>Introduction</h1>
+                <h5>Préambule</h5>
                 <p>
-                    <a class="btn btn-primary" href="#" role="button">Un bouton avec hyperlien &raquo;</a>
+                    Nous allons, ici, apprendre à utiliser les commandes de base en Unix.
+                </p>
+                <br>
+                <h5>Préparation</h5>
+                <p>
+                    Unix est un <strong>OS</strong> (Operating System), au même titre que <strong>Windows</strong> et <strong>macOS</strong>.<br>
+                    Son principal avantage en programmation est sa programmabilité (en tant qu'Open Source) ainsi que sa console.<br>
+                    <strong>Note</strong> :<br>
+                    La plupart des commandes unix ont un équivalent proche pour mac.
+                    Sur Windows il est possible d'accéder à une configuration Unix à l'aide d'une <strong>VM</strong> (Machine virtuelle) ou d'une <strong>WSL</strong> (Sous-système Windows pour Linux). La VM est comme une application que l'on ouvre pour avoir un portail vers unix. Alors que la WSL permet d'avoir unix directement d'installer à côté de windows.<br>
+                    Si vous utilisez un Windows, vous allez devoir choisir une des 2 méthodes pour continuer. La VM permet, sans doute, plus de contrôle au niveau de l'environnement et la WSL est plus pratique car on peut accéder à tous ces dossiers personnels, alors qu'avec une VM on ne peut accéder, facilement, qu'à ce qui se trouve de l'autre côté du portail.<br>
+                    A titre personnel j'utilise une WSL, car cela me paraissait plus simple, et je n'ai pas encore trouvé de cas d'utilisation limitant.
+                </p>
+                <p>Bien, maintenant que vous avez accès à un terminal (autre que celui de Windows), nous pouvons commencer.</p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>man et arguments</h2>
+                <p>
+                    Le <code>man</code> sert à connaître l'utilité d'une commande ainsi que ses arguments.
+                </p>
+                <p>
+                    De manière générale, pour toute commande, vous pouvez taper : <code>man nomDeLaCommande</code> afin d'avoir des informations sur cette commande.
+                    Le <code>man</code> (pour manuelle) est très long. Vous pouvez vous déplacer vers le bas avec la touche <code>espace</code> et sortir avec la touche <code>q</code>.
+                    Vous pouvez aussi utiliser le man en ligne.
+                </p>
+                <p>
+                    Un argument est sous la forme -uneLettre (ex : -s, -a, -l, ...). Il permet de préciser la commande.
                 </p>
             </div>
         </div>
     </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>ls & cd</h2>
+                <p>
+                    <code>ls</code> affiche tous les dossiers et fichiers du répertoire courant.
+                </p>
+                <p>
+                    <code>cd</code> prend en argument direct (sans tiret) un chemin absolue ou relatif et permet de se déplacer à cet endroit.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Pipeline & Redirection</h2>
+                <p>
+                    Un pipeline <code>a|b</code> permet d'envoyer la sortie de la commande a à b
+                </p>
+                <p>
+                    une redirection <code>a>b</code> permet de renvoyer la sortie de a (print) vers le document b, qui sera créé s'il n'existe pas.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>sudo</h2>
+                <p>
+                    <code>sudo</code> est le "mot" devant se trouver devant toutes commandes nécessitant des droits d'administration.<br>
+                    L'exemple le plus utile est : <code>sudo apt install nomModule</code> afin d'installer un module.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Extension</h2>
+                <p>
+                    En unix, il n'y a pas réellement d'extension. Il faut tout de même continuer à les marquer afin de reconnaître les fichiers, mais c'est tout.<br>
+                    Autrement dit, vous pouvez lancer monCode.py avec un compilateur c. Cela soulèvera des erreurs mais ne sera pas impossible. C'est pourquoi il faut penser à les indiquer tout de même, afin de savoir comment les traiter.
+                </p>
+                <p>
+                    <strong>Note</strong> : Pour exécuter un code python il faut avoir le module <code>python3</code> et taper :<br>
+                    <code>python3 monCode.py</code>, en étant dans le répertoire où se trouve monCode.py.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Fin</h2>
+                <p>
+                    Le reste des commandes importantes seront vue en temps utile<br><br>
+                    <a class="btn btn-primary" href="./c.html" role="button">Apprendre les bases du C &raquo;</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    
+
 
 </main>
 
