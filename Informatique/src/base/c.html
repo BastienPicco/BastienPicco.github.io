@@ -39,13 +39,12 @@
                     <a class="nav-link" aria-current="page" href="../../index.html">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../dico/index.html">Dictionnaire</a>
+                    <a class="nav-link" href="../python/python.html">Algorithmie</a>
                 </li>
                 <!-- BASE -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" >Base</a>
                     <ul class="dropdown-menu" >
-                        <li><a class="dropdown-item" href="./python.html">Algorithme & Python</a></li>
                         <li><a class="dropdown-item" href="./unix.html">Unix de base</a></li>
                         <li><a class="dropdown-item active" href="./c.html">C</a></li>
                         <li><a class="dropdown-item" href="./git.html">Git & utilitaires</a></li>
@@ -63,6 +62,10 @@
                         <li><a class="dropdown-item" href="../plus_avance/unity.html">Unity</a></li>
                     </ul>
                 </li>
+                <!--Dico-->
+                <li class="nav-item">
+                    <a class="nav-link" href="../dico/index.html">Dictionnaire</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -72,15 +75,167 @@
     <div class="container">
         <div class="bg-light p-5 rounded row">
             <div class="col-sm-8 mx-auto">
-                <h1>Titre</h1>
-                <p>Plein de texte avce du <code>code</code>. Mais aussi des <a href="#">hyperlien</a> </p>
-                <p>2ème paragraphe</p>
+                <h1>Introduction</h1>
                 <p>
-                    <a class="btn btn-primary" href="#" role="button">Un bouton avec hyperlien &raquo;</a>
+                    La syntaxe du C est plus complexe que celle de Python. Toutefois, cela permet, en partie, d'avoir plus de contrôle et de mieux comprendre chaque action.
+                    De plus, un certain nombre d'autres langages sont syntaxiquement proches du C.
                 </p>
             </div>
         </div>
     </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h1>Tabulation et Point-Virgule</h1>
+                <p>
+                    En <strong>C</strong> les tabulations, espaces et retour à la ligne n'ont aucune valeur. Vous pouriez écrire l'intégralité de votre code sur une suel ligne.
+                    Toutefois, nous ne le recommadons pas, car il serait, alors, très difficile à comprendre et débugger. De même, il est fortement conseillé de garder l'habitude d'indenter votre code.
+                </p>
+                <p>
+                    A la place les groupes de code sont regroupé entre <strong>{accolade}</strong>. Et chaque ligne est fini par un <strong>point virgule</strong>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h1>Déclaration de Type</h1>
+                <p>
+                    En <strong>C</strong>, contrairement à en python, il faut déclarer le type de chaque variable. Ainsi, la déclaration et l'assignation  d'une variable peuvent se faire simultanément ou non, suivant le besoin.
+                </p>
+                <pre><code>
+                    float monFloatant;
+                    int monEntier = 5;
+                    float unAutreFloatant = 1.2;
+                </code></pre>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h1>Boucles et Conditions</h1>
+                <p>
+                    Sans plus attendre, voici la structure des différentes notions vues en Python.
+                </p>
+                <pre><code>
+                    //Ceci est un commentaire
+                    for(int i = 0; i < 10; i++){
+                        maFct(); // code quelconque
+                    }
+
+                    int a = 0;
+                    while(a < 10){
+                        maFct();
+                        a++;  // équivalent à : a = a + 1; ou a += 1;
+                    }
+
+                    if( condition1 ){
+                        maFct1();
+                    }
+                    else if( condition2 ){ // Pas de contraction en elif
+                        maFct2();
+                    }
+                    else{
+                        maFct3();
+                    }
+                </code></pre>
+                <p>
+                    Pour la boucle <code>for</code>, la structure est la suivante :<br>
+                    <code>for(déclaration et initialisation de la variable compteur; condition d'arrêt; action à réaliser à la fin de chaque boucle, généralement incrémenter la variable de 1){code}</code>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h1>Pointeur</h1>
+                <p>
+                    Les pointeurs permettent de différencier entre un agissement sur une copie de la variable ou sur la variable elle-même.
+                    Ils permettent de faire référence non pas à la valeur de la variable mais à l'adresse mémoire de la variable.<br>
+                    On utilise <code>&</code> pour accéder à l'adresse d'une variable et <code>*</code> pour le type : adresse mémoire.
+                </p>
+                <code><pre>
+                int a = 0;
+                int * p; // p est un pointeur vers un adresse contenant un entier
+                p = &a; // p prend la valeur de l'adresse de a
+                </pre></code>
+                <p>
+                    En C, les listes fonctionnent explicitement avec des pointeurs. C'est à dire qu'une liste va "être égale" à l'adresse de son premier élément, qui lui-même connaît l'adresse du suivant.
+                    <strong>Attention :</strong> les listes ont des tailles prédéfinies et il ne faut pas les dépasser (ni pouvoir le faire). De plus, dans le cas de <strong>char</strong> le dernier emplacement
+                    doit être réservé au caractères fin de chaîne (ou caractère vide <code>\0</code>).
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h1>Structure</h1>
+                <p>
+                    TODO
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h1>Compilation</h1>
+                <p>
+                    A présent que vous avez une idée de comment écrire en C, il faut encore l'écrire et le compiler. Pour l'écriture, rien de bien compliqué, n'importe quel éditeur de texte
+                    suffit. Toutefois, il est préférable d'utiliser des éditeurs adaptés au code. Je conseille, personnellement, <a href="https://vscodium.com/">VSCodium</a>.<br>
+                    Le code C, à la différence du python qui est interprété, doit être compilé puis exécuté. Pour se faire, le plus simple est d'utiliser le terminal unix.<br>
+                    Positionnez-vous dans le répertoire contenant le code.c et tapez :<br>
+                    <code>gcc -Wall -o nomDeLExecutable code.c</code><br>
+                    Cela permet, dans l'ordre, de compiler un code c (gcc), en affichant tous les warning (-Wall) et en nommant l'exécutable formé (-o) en nomDeLExecutable, contenu dans code.c.<br>
+                    Sans le <code>-o</code> le nom par défaut est <code>a.out</code>.<br>
+                    Maintenant que votre code est compilé, et s'il n'y a pas d'erreur à débugger avant, vous pouvez l'exécuter :<br>
+                    <code>./nomDeLExecutable</code><br>
+                </p>
+                <p>
+                    Il faut recompiler le code à chaque fois qu'il subit des changements que vous voulez tester.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h1>Fin</h1>
+                <p>
+                    <a class="btn btn-primary" href="./git.html" role="button">Apprendre les bases de git &raquo;</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+
 
 </main>
 

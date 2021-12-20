@@ -39,13 +39,12 @@
                     <a class="nav-link" aria-current="page" href="../../index.html">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../dico/index.html">Dictionnaire</a>
+                    <a class="nav-link" href="../python/python.html">Algorithmie</a>
                 </li>
                 <!-- BASE -->
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" >Base</a>
                     <ul class="dropdown-menu" >
-                        <li><a class="dropdown-item" href="./python.html">Algorithme & Python</a></li>
                         <li><a class="dropdown-item" href="./unix.html">Unix de base</a></li>
                         <li><a class="dropdown-item" href="./c.html">C</a></li>
                         <li><a class="dropdown-item active" href="./git.html">Git & utilitaires</a></li>
@@ -63,6 +62,10 @@
                         <li><a class="dropdown-item" href="../plus_avance/unity.html">Unity</a></li>
                     </ul>
                 </li>
+                <!--DIco-->
+                <li class="nav-item">
+                    <a class="nav-link" href="../dico/index.html">Dictionnaire</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -72,15 +75,89 @@
     <div class="container">
         <div class="bg-light p-5 rounded row">
             <div class="col-sm-8 mx-auto">
-                <h1>Titre</h1>
-                <p>Plein de texte avce du <code>code</code>. Mais aussi des <a href="#">hyperlien</a> </p>
-                <p>2ème paragraphe</p>
+                <h1>Introduction</h1>
                 <p>
-                    <a class="btn btn-primary" href="#" role="button">Un bouton avec hyperlien &raquo;</a>
+                    <a href="https://github.com/">Github</a> est un site permettant de sauver et tracer ses codes open-source. Ceci permet aussi de travailler à plusieurs
+                    sur un même code. Pour cela, chacun va avoir sur sa machine une copie local du code qu'il pourra modifier et compiler. Une fois satisfait avec sa partie, il envoie le code
+                    sur le site qui se charge, presque entièrement tout seul, de traquer ce qui a changé et de fusionner correctement les différentes parties.
+                </p>
+                <p>
+                    Afin d'éviter au maximum les fusions difficiles, je recommande de se diviser le travaille en fichiers. Toutefois, la plupart des problèmes peuvent assez facilement
+                    être réglés avec une bonne interface graphique.
                 </p>
             </div>
         </div>
     </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h1>Commandes de Bases</h1>
+                <p>
+                    Je vous conseille de créer un dépôt git (projet) pour tester comment tout cela marche. Pour cela vous aurez besoin
+                    de plusieurs fichiers. Toutefois, git fonctionne avec tout, pas seulement le code. Aussi les textes et images.
+                </p>
+                <p>
+                    Pour commencer un nouveau projet, commencez par créer un nouveau dépôt git.<br>
+                    Une fois créer, copier son url, aussi accessible à l'aide du bouton <code>code</code> en vert.<br>
+                    Ouvrez le terminal unix et positionnez-vous là où vous voulez créer votre copie local du projet. et tapez :<br>
+                    <code>git clone votreURL</code> afin d'initialiser le répertoire sur votre machine.<br>
+                    Vous pouvez à présent effectuer toutes les modifications et ajouts que vous voulez.
+                </p>
+                <p>
+                    Une fois satisfait par vos changements, pour le moment, il faut regrouper les changements que vous voulez envoyer sur le site et nommer ce groupe afin d'identifier ces changements.<br>
+                    <code>git add nomFichier1 nomImage2 nomCode.c</code> pour ajouter ces fichiers, ou<br>
+                    <code>git add *</code> pour ajouter tous les changements, puis :<br>
+                    <code>git commit -m "nom / Description de vos changements"</code><br>
+                </p>
+                <p>
+                    Il ne reste plus qu'à envoyer ces changements sur le site, pour cela :<br>
+                    <code>git push</code>, cette action vous demandera votre identifiant et token.
+                </p>
+                <p>
+                    Enfin, pour récupérer des changements, fait par une autre personne, ou si vous travaillez sur différentes machines :<br>
+                    <code>git pull</code>, attention : cela ne marche que si le projet a déjà été cloné.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h1>Merge</h1>
+                <p>
+                    Si 2 personnes, ou plus, modifient le même fichier, git sera, le plus souvent, capable de fusionner les changements correctement. Le cas le plus problématiques
+                    est lorsque les 2 personnes modifient les même lignes. Dans ce cas, il faudra indiquer à git lequel des changements garder.
+                </p>
+                <p>
+                    En ligne de commande cela peut vite devenir difficile. C'est pourquoi je recommande l'éditeur VSCodium qui permet de gérer les fusions directement :
+                    les 2 propositions apparaîtront dans l'éditeur et on peut modifier et garder celle que l'on veut.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h1>Fin</h1>
+                <p>
+                    <a class="btn btn-primary" href="./objet.html" role="button">Programmation Orientée Objet &raquo;</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    
 
 </main>
 

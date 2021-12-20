@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tuto Programmation">
+    <meta name="author" content="Bastien Picco">
+    <title>Algorithme & Python</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbars/">
+
+    <!-- Bootstrap core CSS
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    -->
+    <link href="../../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Icone -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon2.ico" />
+
+    <!-- Style -->
+    <style>
+
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="../../assets/navbar.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Barre de navigation -->
+<nav class="navbar navbar-expand navbar-dark bg-dark" >
+    <div class="container-fluid">
+        <a class="navbar-brand" href="https://bastienpicco.github.io">Mon menu</a>
+
+        <div class="collapse navbar-collapse" id="monNavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../index.html">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./python.html">Algorithmie</a>
+                </li>
+                <!-- BASE -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" >Base</a>
+                    <ul class="dropdown-menu" >
+                        <li><a class="dropdown-item" href="../base/unix.html">Unix de base</a></li>
+                        <li><a class="dropdown-item" href="../base/c.html">C</a></li>
+                        <li><a class="dropdown-item" href="../base/git.html">Git & utilitaires</a></li>
+                        <li><a class="dropdown-item" href="../base/objet.html">Orientée Objet & java</a></li>
+                        <li><a class="dropdown-item" href="../base/html.html">HTML & Web</a></li>
+                    </ul>
+                </li>
+                <!-- PLUS AVANCE -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" >Pour aller plus loin</a>
+                    <ul class="dropdown-menu" >
+                        <li><a class="dropdown-item" href="../plus_avance/thread.html">Thread & Process</a></li>
+                        <li><a class="dropdown-item" href="../plus_avance/semaphore.html">Semaphore</a></li>
+                        <li><a class="dropdown-item">AUTRE</a></li>
+                        <li><a class="dropdown-item" href="../plus_avance/unity.html">Unity</a></li>
+                    </ul>
+                </li>
+                <!--Dico-->
+                <li class="nav-item">
+                    <a class="nav-link" href="../dico/index.html">Dictionnaire</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Main -->
+<main>
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Introduction</h2>
+                <p>
+                    Dans cette première section nous allons apprendre les briques élémentaires de la programmation.
+                    C'est à dire, qu'est ce que :
+                    <ul>
+                        <li>une variable</li>
+                        <li>un type</li>
+                        <li>une condition</li>
+                        <li>une boucle</li>
+                        <li>une fonction</li>
+                    </ul>
+                </p>
+                <p class="text-info">
+                    Pour ce faire, nous utiliserons le langage <strong>Python</strong>. Qui est le langage avec la syntaxe la plus simple à utiliser.
+                </p>
+                <p>
+                    Cette partie est destinée aux personnes voulant débuter en informatique. Si vous connaissez déjà les bases, vous pouvez directement passer à la partie suivante.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Installation</h2>
+                <p>
+                    La première étape est donc de l'<a href="https://www.python.org/downloads/">installer</a>. Toutefois, si vous voulez un éditeur plus complet il est aussi possible d'installer <a href="https://www.spyder-ide.org/">Spyder</a>.
+                    Enfin, si vous voulez les 2 ainsi que d'autres éditeurs utiles vous pouvez installer <a href="https://winpython.github.io/">Winpython</a> ou <a href="https://www.anaconda.com/products/individual-d">Anaconda</a>, qui ne possède pas l'éditeur de base.
+                    Si vous débutez tout juste dans la programmation, je vous conseille l'éditeur de base qui est très simple d'utilisation. Vous pouvez toujours installer les autres plus tard.
+                </p>
+                <p>
+                    Une fois installé, lancer <strong>idle</strong> (qui vient avec python), ou <strong>Spyder</strong>.
+                </p>
+                <p>
+                    Si vous avez choisi idle, vous vous retrouvez sur un interpréteur, c'est-à-dire  que tout ce que vous tapez est directement exécuté.<br>
+                    Si vous marquez <code>2+2</code> et tapez <code>entrer</code>, l'interpréteur vous répondra <code>4</code>.<br>
+                    Afin de pouvoir écrire un programme (donc un ensemble de ligne) vous devez ouvrir un nouveau fichier (<code>file -> new file</code> ou <code>ctrl+n</code>). Une nouvelle fenêtre s'affiche, dans laquelle vous pouvez entrer autant de ligne de code que vous voulez.<br>
+                    Pour exécuter le code il faut alors appuyer sur <code>run</code> ou sur la touche <code>f5</code>.
+                </p>
+                <p>
+                    Attention : il faut à présent rentrer du code. Donc on ne peut plus juste marquer <code>2+2</code>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Hello World !</h2>
+                <p>
+                    Par tradition et afin de vous présenter une fonction utile, <code>print</code>, nous allons coder votre tout premier programme <strong>Hello  World !</strong><br>
+                    Cette fonction permet d'afficher soit un <strong>nombre</strong> <code>print(2+2)</code> soit une <strong>chaine de caractère</strong> qui doit donc se trouver <strong>"entre guillemet"</strong>.<br>
+                    Ainsi, vous pouvez tapez et exécuter votre tout premier programme : <br>
+                    <br><code>print("Hello World !)</code><br><br>
+                    Si tout se passe bien, le programme devrait avoir écrit "Hello World !".<br><br>
+                    Bien, maintenant que tout est en place, passons aux différentes notions.
+                </p>
+                <p>
+                    Quelques informations utiles :<br />
+                    Pour une ligne donnée, tout ce qui suit un <code>#</code> est considéré comme un commentaire (en python) :
+                    <pre><code>
+                        #Ceci est un commentaire
+                        print("cela s'affiche")  # Ici aussi, print("cela ne s'affiche pas")
+                    </code></pre>
+                    Enfin, si une exécution ne se termine pas (boucle infini) vous pouvez utiliser le raccourci <code>ctrl+c</code> dans l'interpréteur (là où les résultats s'affichent) pour arrêter le programme.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Variable</h2>
+                <p>
+                    Une variable est un espace de stockage, comme un carton vide labellé.<br>
+                    En python, on <strong>déclare</strong> et <strong>assigne</strong> les variables directement.
+                    Autrement dit, si je veux créer une variable qui s'appelle <code>maVariable</code> et qui a pour valeur <code>1</code>, il me suffit d'écrire :<br>
+                    <code>maVariable = 1</code><br>
+                    Je peux même l'afficher :<br>
+                    <code>print(maVariable)</code><br>
+                    <br>
+                    En suivant le même principe, je peux changer sa valeur :
+                    <code>maVariable = 5</code><br>
+                    Attention, son ancienne valeur est à présent perdue et non retrouvable.
+                </p>
+                <p>
+                    Jusqu'à présent nous avons stocker des entiers, mais il est possible de stocker n'importe quoi, comme une chaîne de caractère à présent :<br>
+                    <code>uneAutreVariable = "du texte quelconque"</code>
+                </p>
+                <p>
+                    <strong>Note</strong> : Le nom d'une variable doit commencer par une lettre et ne peut pas contenir d'espace.<br>
+                    Par convention, la première lettre est minuscule et on utilise la majuscule pour "séparer" les mots, comme ci dessus.
+                </p>
+                <br><br>
+                <h5>Auto-Assignation</h5>
+                <p>
+                    En informatique, il ne faut pas confondre <code>==</code> et <code>=</code> .<br>
+                    Le 1er sert de test. "Est-ce que 2 valeurs sont identique" (dans l'interpréteur idle vous pouvez tapez <code>2==3</code> et il vous répondra <code>false</code>)<br>
+                    Le 2ème sert d'assignation. "La valeur de gauche prend la valeur de droite". Il est important de comprendre que la valeur de gauche est celle en devenir et celle de droite la valeur au moment de la lecture de cette ligne et avant assignation.<br>
+                    En quoi est-ce important ? C'est très simple, en informatique il fréquent d'écrire : <br>
+                    <code>maVariable = maVariable + 1</code><br>
+                    Ce qui mathématiquement n'a pas de sens, ou plutôt pas de solution. Mais, ici, ce que l'on veut dire c'est "maVariable prend pour valeur la valeur qu'elle avait plus un".<br>
+                    Ainsi, si <code>maVariable</code> avait pour valeur <code>5</code> elle vaut à présent <code>6</code>. Vous pouvez tester avec <code>print</code>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Type</h2>
+                <h5>Simple</h5>
+                <p>
+                    Un type représente la "catégorie" dans laquelle se trouve une variable. Les types de bases sont les suivants :<br>
+                    <ul>
+                        <li><strong>int</strong> (ou integer) : ce sont les <strong>entiers</strong> (ex : -5, 0, 7, 115, ...)</li>
+                        <li><strong>float</strong> : ce sont les <strong>nombres à virgule</strong> (ex : 1.1, 78.89541, 5.0, 7, ...). A noter qu'en informatique on utilise un <strong>point</strong> pour les <strong>virgules</strong>.</li>
+                        <li><strong>str</strong> (ou string) : ce sont les chaînes de caractères, représentés entre <strong>guillemets</strong> (ex : "Bonjour", "ceci est un string", "a", "83", ...)</li>
+                        <li><strong>char</strong> (ou characteres) : ce sont eux qui composent les strings, représentés entre <strong>apostrophes</strong> (ex : 'a', 's', ...)</li>
+                    </ul>
+                </p>
+                <br>
+                <h5>Liste</h5>
+                <p>
+                    Une liste contient plusieurs valeurs/variables de même type. Elle est représentée entre <strong>crochet</strong>, et les éléments sont séparés par des <strong>virgules</strong> :<br>
+                    <pre><code>
+listeDeInt = [1, 2, 78, 95, 5, -6, 75]
+listeDeJour = ["lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"]
+                    </code></pre>
+                    On peut accéder à un élément d'une liste grâce à son <strong>index</strong>. Il est toutefois, important de noter qu'en informatique, les index vont de <code>0</code> à <code>tailleDeLaListe-1</code><br>
+                    Ainsi, <code>listeDeInt[3]</code> vaut <code>95</code>, <code>listeDeInt[1]</code> vaut <code>2</code> et <code>listeDeJour[0]</code> vaut <code>"lundi"</code>.
+                </p>
+                <p>
+                    Quelques astuces : <br>
+                    En python, on peut utiliser des indices négatifs afin de partir de la fin. Ainsi, <code>listeDeJour[-1]</code> vaut <code>"dimanche"</code>.<br>
+                    On peut utiliser la fonction <code>len</code> pour avoir le nombre d'éléments dans une liste. Ainsi, <code>listeDeJour</code> vaut <code>7</code> et ses index vont de <code>0</code> à <code>len(listeDeJour)-1</code> (donc <code>6</code>, ici).
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Condition</h2>
+                <p>
+                    Une condition permet d'exécuter  une partie de code sous la condition qu'un test soit vrai.<br>
+                    Autrement dit, si une condition est vraie on fait quelque chose, sinon autre chose. En python, cela s'écrit :<br>
+                </p>
+                <pre><code>
+                    maVariable = 5
+                    if( maVariable == 5 ):
+                        maVariable = 3
+                    else:
+                        maVariable = 7
+                </code></pre>
+                <p>
+                    Ici, on compare la valeur de <code>maVariable</code> à l'entier <code>5</code>. S'ils sont égaux on fait une assignation, sinon on fait une autre assignation.
+                </p>
+                <p>
+                    <strong>Note</strong> : On remarque déjà l'importance de ne pas confondre les différents "égals". Il existe une 3ème commande en plus de
+                    <code>if</code> et <code>else</code>. Il s'agit de <code>elif</code> (en python), qui permet d'enchainer les <code>if</code> avant de finir avec le <code>else</code> qui sert de cas par défaut.
+                </p>
+                <pre><code>
+                    maVariable = 5
+                    if( maVariable == 5 ):
+                        maVariable = 3
+                    elif( maVariable == 3 ):
+                        maVariable = 78
+                    elif( maVariable == 6 ):
+                        maVariable = 4
+                        maVariable = maVariable + 1
+                    else:
+                        maVariable = 7
+                    uneAutreVariable = 0
+                </code></pre>
+                <p>
+                    <strong>Note</strong> : Le code se lit de haut en bas et dès lors qu'un des tests est vrai. Le programme ignore les suivant jusqu'à la fin du <code>else</code>. Et ne fait le <code>else</code> que si tous les autres tests ont échoué.<br>
+                    Dans l'exemple ci dessus, à la fin du code <code>maVariable</code> ne vaut pas <code>78</code> mais bien <code>3</code>.<br>
+                    Enfin, il est important de noter les <strong>tabulations</strong> et les "<strong>:</strong>" qui sont important en python. En effet, les tabulations servent à délimiter le code qui dépend de la condition. Ainsi, si <code>maVariable==6</code> est vraie, alors les 2 lignes suivantes sont exécutées.
+                    De même, le <code>else</code> ne comprend qu'une seule ligne et la dernière ligne fait partie du code "normal" qui sera exécuté sans condition.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Boucle</h2>
+                <p>
+                    Une boucle sert à répéter une partie de code un certain nombre de fois.
+                    Il existe 2 type de boucle :
+                    <ul>
+                        <li>la boucle <code>for</code> : qui permet de répéter le code un nombre fixe de fois</li>
+                        <li>la boucle <code>while</code> : qui permet de répéter un code tant qu'une condition est vraie</li>
+                    </ul>
+                </p>
+                <p>
+                    En python, on les utilise de cette manière :
+                </p>
+                <pre><code>
+                    maVariable = 0
+                    for i in range(10):
+                        maVariable = maVariable + 1
+                    print(maVariable)
+                    <br>
+                    maVariable = 5
+                    while( maVariable < 10 ):
+                        maVariable = maVariable + 1
+                    print(maVariable)
+                </code></pre>
+                <p>
+                    Dans ces 2 cas simples la <code>maVariable</code> vaut <code>10</code> au final. Mais dans le 1er cas on a fait 10 itérations alors que dans le 2ème
+                    on en a fait autant qu'il en fallait pour arriver à 10 (donc 5 ici).
+                </p>
+                <p>
+                    Il y a plusieurs éléments important à noter :<br>
+                    De la même façon que pour les conditions, les <strong>tabulations</strong> et les "<strong>:</strong>" sont importants et jouent le même rôle que précédemment.<br>
+                </p>
+                <p>
+                    <strong>Pour la boucle <code>for</code> :</strong><br>
+                    <code>for i in range(10)</code> peut se traduire par "On crée une variable <strong>i</strong> qui va prendre, à tour de rôle, la valeur de 0 à 9".<br />
+                    Quelques points importants : la variable <code>i</code> n'existe qu'au sein de la boucle <code>for</code> et n'est plus accessible en dehors. Une méthode simple pour savoir si une variable existe ou pas
+                    et de regarder les tabulations. Si une variable est créée à un niveau de tabulations <strong>n</strong> alors elle est accessible à tous les niveaux <strong>supérieurs ou égaux à n</strong> et inaccessible à tous les niveaux <strong>inférieurs à n</strong>.
+                    De plus, comme remarqué précédemment, en informatique les <strong>index</strong> commencent à 0 !<br />
+                    Donc <code>range(n)</code> permet d'accéder aux nombres de <code>0</code> à <code>n-1</code>. Et <code>range(n, m)</code> permet d'accéder au nombre de <code>n</code> à <code>m-1</code>.
+                    Enfin, la variable <code>i</code> prend la prmeière valeur au début du 1er tour. Et change de valeur à chaque fin de tour jusqu'à ce qu'il n'y en ait plus de disponible.
+                </p>
+                <br />
+                <p>
+                    <strong>Pour la boucle <code>while</code> :</strong><br />
+                    Le fonctionnement est le suivant :
+                    <ol>
+                        <li>On teste la condition</li>
+                        <li>Si elle est vraie on exécute le code et on reteste la condition</li>
+                        <li>On continue jusqu'à ce que la condition soit fausse</li>
+                    </ol>
+                    Ceci implique que l'on peut faire <strong>0</strong> itérations, si la condition est fausse instantanément. Mais surtout, on peut rentrer dans <strong>une boucle infinie</strong> ! <br />
+                    Ceci arrive lorsque la condition, au contraire, n'est jamais fausse. Il est très important de vérifier de ne pas en créer accidentellement.<br />
+                    Ici, on attend que <code>maVariable</code> soit supérieure ou égale à <code>10</code>. Et l'on augmente sa valeur à chaque itération. Donc la condition finira par être vraie.<br />
+                    <strong>Rappel</strong> : Pour arrêter une boucle infinie, avant qu'elle fasse planter votre ordinateur, appuyer sur <code>ctrl+c</code> dans l'interpréteur (là où le code s'exécute).
+                </p>
+                <br />
+                <h5>Imbrication</h5>
+                <p>
+                    Enfin, il est important de noter que l'on peut avoir plusieurs niveaux de tabulations qu'il faut donc aligner correctement, afin d'avoir l'effet voulu.
+                    <pre><code>
+                        maVariable = 0
+                        variable2 = 0
+                        if(variable2 > maVariable):
+                          maVariable = variable2
+                          for i in range(10):
+                            variable2 = variable2 + 2
+                            if(variable2 > maVariable + 10):
+                              maVariable = 100
+                        else:
+                          maVariable = -100
+                    </code></pre>
+                    Ici, il y a 3 niveaux d'imbrication et l'alignement des tabulations permet de savoir le comportement.<br />
+                    Par exemple, nous pouvons voir que le <code>else</code> final se joue si le 1er <code>if</code> est faux alors que le 2ème <code>if</code> ne possède pas de <code>else</code>.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Fonction</h2>
+                <p>
+                    Une fonction est une partie de code que l'on peut rappeler. Ainsi, si votre code permet de trouver le nombre minimum d'une liste et que vous avez 2 listes,
+                    il n'est pas la peine de tout retaper. En python, une fonction se définit ainsi :
+                    <pre><code>
+                        def maFonction():
+                          print("Ceci est une fonction")
+                        maFonction()
+                        maFonction()
+                    </code></pre>
+                    Ici, on définit une fonction qui écrit un texte, et on l'appelle 2 fois.
+                </p>
+                <p>
+                    Il est possible de donner des arguments à la fonction. Ce sont comme des variables neutres. elles ne valent rien de spécial lors de la définition et prennent une valeur
+                    lors de l'exécution :
+                    <pre><code>
+                        def maFonctionAddition(argument1, argument2):
+                          print(argument1 + argument2)
+                        maFonctionAddition(5, 15)
+                    </code></pre>
+                    Ici, notre fonction prend 2 arguments et écrit leur somme.
+                </p>
+                <p>
+                    Enfin, à la place, ou en plus, décrire un résultat, une fonction peut le <strong>retourner</strong>. C'est-à-dire, permettre de le récupérer dans la suite du programme pour l'utiliser.
+                    <pre><code>
+                        def additionneur(x, y):
+                          resultat = x + y
+                          return resultat
+
+                        test = additionneur(11, 78)
+                        print(test)
+                    </code></pre>
+                    Ici, à la place d'afficher le résultat de l'addition, le fonction renvoie ce résultat et on le récupère dans une variable que l'on affiche, et que l'on pourrait utiliser pour d'autre chose.
+                </p>
+              </div>
+          </div>
+      </div>
+
+      <br><br>
+
+      <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Pour continuer</h2>
+                <p>
+                    Si vous venez de découvrir tout cela, je vous conseille de mettre tout ça en pratique dans une multitude de mini-projets. Le but étant de manipuler un maximum afin d'être à l'aise avec toutes les notions de base.
+                    Voici quelques idées idées que vous pouvez coder et qui utilisent la plupart des notions ci-dessus : <br>
+                    <ul>
+                        <li>Une fonction qui prend une liste de nombres et qui renvoie le plus grand : <code>maxi([5, 7, 89, 0, -178, 47])</code> doit retourner <code>89</code></li>
+                        <li>De même, sauf qu'elle renvoie le plus grand entier pair</li>
+                        <li>Une fonction qui prend une liste de nombres et qui retourne la liste trier</li>
+                        <li>Une fonction qui renvoie l'entier <strong>n</strong> jusqu'au quel il faut aller pour que la somme des n premiers entier dépasse strictement 1000 : le code devrait retourner <code>45</code>.</li>
+                    </ul>
+                </p>
+                <p>
+                    Une fois à l'aise avec ces principes vous pouvez utiliser le site <a href="https://projecteuler.net/">Projet Euler</a>. Qui contient un très grand nombre de problèmes algorithmiques. C'est-à-dire,
+                    des problèmes dont la résolution n'utilise que des principes de bases et dont la difficulté réside dans leur agencement.<br>
+                    <strong>Avertissement</strong> : Même en commençant par les niveaux les plus facile, certains problèmes sont loin d'être facile.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Import</h2>
+                <p>
+                    Comme nous l'avons vu, il existe un certain nombre de fonctions pré-défini en python, tel que <code>print()</code> ou <code>len()</code>. Toutefois,
+                    afin de ne pas charger trop de fonctions inutiles pour un code donné, elles ne sont pas toutes accessibles directement, et certaines doivent être <strong>importées</strong>.<br>
+                    Les imports se définissent tout en haut de la page de code, traditionnellement.
+                </p>
+                <pre><code>
+        from numpy import array #importe la fonction array du module numpy
+        from numpy import * #importe tout le module numpy
+        import numpy as np #importe le module numpy et le renomme np
+                </code></pre>
+                <p>
+                    Comme nous venons de le voir, en python, il existe plusieurs façons d'importer un module ou une fonction.
+                    Le renommage est utile, puisque pour utiliser une fonction d'un module on doit taper : <code>nomDuModule.nomDeLaFonction()</code>.<br>
+                    Ici, <code>numpy.array([1, 2, 3, 4])</code> ou <code>np.array([1, 2, 3, 4])</code>.
+                </p>
+                <p>
+                    <strong>Note</strong> : Si votre interpréteur vous informe qu'il ne connaît pas "numpy", il est temps de changer d'interpréteur et d'utiliser spyder.<br>
+                    Il est possible d'avoir les imports en utilisant python de base, sans doute via un autre téléchargement.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container">
+        <div class="bg-light p-5 rounded row">
+            <div class="col-sm-8 mx-auto">
+                <h2>Fin</h2>
+                <p>
+                    Vous êtes arrivé à la fin de l'initiation à la programmation !<br>
+                    Si vous pensez maîtriser ces notions de bases vous pouvez passer à la suite <a href="../base/unix.html">ici</a>, ou continuer à vous entraîner.<br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+
+</main>
+
+<script src="../../assets/dist/js/bootstrap.bundle.min.js"></script>
+<!---
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+--->
+
+</body>
+</html>
