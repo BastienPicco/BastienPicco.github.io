@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const musiques = jsyaml.load(yamlText);
       const accordion = document.querySelector('.accordion');
 
-      musiques.musiques.forEach(function(genre) {
+      musiques.musics.forEach(function(genre) {
         const genreItem = document.createElement('div');
         genreItem.classList.add('accordion-item');
 

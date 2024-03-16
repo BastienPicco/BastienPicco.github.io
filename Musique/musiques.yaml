@@ -1,5 +1,5 @@
-musiques:
-  - genre: Rock
+musics:
+  - genre: Rock (Classique)
     artists:
       - name: Queen
         songs:
@@ -33,23 +33,136 @@ musiques:
         songs:
           - title: The Final Countdown
             youtube_link: https://www.youtube.com/watch?v=9jK-NcRmVcw
-      - title: Pink Floyd
+      - name: Pink Floyd
         songs:
           - title: Another Brick in The Wall
             youtube_link: https://www.youtube.com/watch?v=5IpYOF4Hi6Q
-  - genre: GENRE
+
+  - genre: Rock
+    artists:
+      - name: Linkin Park
+        songs:
+          - title: Numb
+            youtube_link: https://www.youtube.com/watch?v=kXYiU_JCYtU
+      - name: Imagine Dragons
+        songs:
+          - title: Radioactive
+            youtube_link: https://www.youtube.com/watch?v=ktvTqknDobU
+      - name: Phil Collins
+        songs:
+          - title: In The Air Tonight
+            youtube_link: https://www.youtube.com/watch?v=IeDMnyQzS88
+      - name: Simon & Garfunkel
+        songs:
+          - title: The Sound of Silence
+            youtube_link: https://www.youtube.com/watch?v=NAEppFUWLfc
+      - name: Cranberries
+        songs:
+          - title: Zombie
+            youtube_link: https://www.youtube.com/watch?v=6Ejga4kJUts
+      - name: Survivor
+        songs:
+          - title:  Eye Of The Tiger
+            youtube_link: https://www.youtube.com/watch?v=btPJPFnesV4
+      - name: David Glen Eisley
+        songs:
+          - title: Sweet Victory
+            youtube_link: https://www.youtube.com/watch?v=i7fnlJ60RO8
+      - name: Bonnie Tyler
+        songs:
+          - title: Total Eclipse of the Heart
+            youtube_link: https://www.youtube.com/watch?v=lcOxhH8N3Bo
+
+  - genre: Métal
+    artists:
+      - name: NightWish
+        songs:
+          - title: Shoemaker
+            youtube_link: https://www.youtube.com/watch?v=Rjp_DfvJimg
+      - name: Sabaton
+        songs:
+          - title: Bismarck
+            youtube_link: https://www.youtube.com/watch?v=oVWEb-At8yc
+      - name: Iron Maiden
+        songs:
+          - title: The Writing On The Wall
+            youtube_link: https://www.youtube.com/watch?v=FhBnW7bZHEE
+      - name: Powerwolf
+        songs:
+          - title: Bête du Gévaudan
+            youtube_link: https://www.youtube.com/watch?v=N6k8BBU8_Go
+      - name: Rammstein
+        songs:
+          - title: Du Hast
+            youtube_link: https://www.youtube.com/watch?v=U5HAEzEk8QM
+      - name: Disturbed
+        songs:
+          - title: The Sound Of Silence
+            youtube_link: https://www.youtube.com/watch?v=u9Dg-g7t2l4
+      - name: Jonathan Young
+        songs:
+          - title: HELLFIRE
+            youtube_link: https://www.youtube.com/watch?v=di1XUB0YIzw
+      - name: Amaranthe
+        songs:
+          - title: FEARLESS
+            youtube_link: https://www.youtube.com/watch?v=JzPUBTR4L_4
+      - name: Epica
+        songs:
+          - title: Unchain Utopia
+            youtube_link: https://www.youtube.com/watch?v=c8XdrOhEZl0
+      - name: DragonForce
+        songs:
+          - title: Through the Fire and Flames
+            youtube_link: https://www.youtube.com/watch?v=0jgrCKhxE1s
+      - name: Battle Beast
+        songs:
+          - title: Eden
+            youtube_link: https://www.youtube.com/watch?v=_hzssKb9940
+
+  - genre: Francophonie
     artists:
       - name: ARTISTE
         songs:
           - title: TITRE
             youtube_link: LIEN
-  - genre: GENRE
+
+  - genre: Pop
     artists:
       - name: ARTISTE
         songs:
           - title: TITRE
             youtube_link: LIEN
-  - genre: GENRE
+
+  - genre: Youtube
+    artists:
+      - name: ARTISTE
+        songs:
+          - title: TITRE
+            youtube_link: LIEN
+
+  - genre: Jeux Vidéos / Films
+    artists:
+      - name: ARTISTE
+        songs:
+          - title: TITRE
+            youtube_link: LIEN
+
+  - genre: Musique
+    artists:
+      - name: ARTISTE
+        songs:
+          - title: TITRE
+            youtube_link: LIEN
+
+  - genre: Italien
+    artists:
+      - name: ARTISTE
+        songs:
+          - title: TITRE
+            youtube_link: LIEN
+
+  - genre: Rap
     artists:
       - name: ARTISTE
         songs:
