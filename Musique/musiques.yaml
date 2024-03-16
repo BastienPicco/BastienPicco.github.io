@@ -1,0 +1,25 @@
+musiques:
+  - genre: "Genre musical 1"
+    artistes:
+      - nom: "Interprète 1"
+        chansons:
+          - nom: "Chanson 1"
+            lien_youtube: "lien_youtube_chanson_1"
+          - nom: "Chanson 2"
+            lien_youtube: "lien_youtube_chanson_2"
+      - nom: "Interprète 2"
+        chansons:
+          - nom: "Chanson 3"
+            lien_youtube: "lien_youtube_chanson_3"
+  - genre: "Genre musical 2"
+    artistes:
+      - nom: "Interprète 3"
+        chansons:
+          - nom: "Chanson 4"
+            lien_youtube: "lien_youtube_chanson_4"
+      - nom: "Interprète 4"
+        chansons:
+          - nom: "Chanson 5"
+            lien_youtube: "lien_youtube_chanson_5"
+          - nom: "Chanson 6"
+            lien_youtube: "lien_youtube_chanson_6"
