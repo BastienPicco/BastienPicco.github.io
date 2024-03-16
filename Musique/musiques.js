@@ -62,12 +62,12 @@ document.addEventListener('DOMContentLoaded', function() {
           interprete.chansons.forEach(function(chanson) {
             const chansonItem = document.createElement('li');
             const chansonLink = document.createElement('a');
-            chansonLink.textContent = chanson.nom;
             chansonLink.href = chanson.lien_youtube;
             chansonLink.target = '_blank'; // Ouvrir le lien dans un nouvel onglet
+            chansonLink.textContent = chanson.nom; // Définition du texte du lien
           
-            chansonItem.appendChild(chansonLink);
-            interpreteContent.appendChild(chansonItem);
+            chansonItem.appendChild(chansonLink); // Ajout du lien à l'élément li
+            interpreteContent.appendChild(chansonItem); // Ajout de l'élément li à la liste des chansons
           });
         });
       });
