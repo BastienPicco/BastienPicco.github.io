@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
             chansonLink.textContent = chanson.nom;
             chansonLink.href = chanson.lien_youtube;
             chansonLink.target = '_blank'; // Ouvrir le lien dans un nouvel onglet
-
+          
             chansonItem.appendChild(chansonLink);
             interpreteContent.appendChild(chansonItem);
           });
