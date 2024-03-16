@@ -1,25 +1,57 @@
 musiques:
-  - genre: "Genre musical 1"
-    artistes:
-      - nom: "Interprète 1"
-        chansons:
-          - nom: "Chanson 1"
-            lien_youtube: "lien_youtube_chanson_1"
-          - nom: "Chanson 2"
-            lien_youtube: "lien_youtube_chanson_2"
-      - nom: "Interprète 2"
-        chansons:
-          - nom: "Chanson 3"
-            lien_youtube: "lien_youtube_chanson_3"
-  - genre: "Genre musical 2"
-    artistes:
-      - nom: "Interprète 3"
-        chansons:
-          - nom: "Chanson 4"
-            lien_youtube: "lien_youtube_chanson_4"
-      - nom: "Interprète 4"
-        chansons:
-          - nom: "Chanson 5"
-            lien_youtube: "lien_youtube_chanson_5"
-          - nom: "Chanson 6"
-            lien_youtube: "lien_youtube_chanson_6"
+  - genre: Rock
+    artists:
+      - name: Queen
+        songs:
+          - title: Bohemian Rhapsody
+            youtube_link: https://www.youtube.com/watch?v=fJ9rUzIMcZQ
+      - name: Scorpions
+        songs:
+          - title: Send Me An Angel
+            youtube_link: https://www.youtube.com/watch?v=1UUYjd2rjsE
+      - name: Toto
+        songs:
+          - title: Africa
+            youtube_link: https://www.youtube.com/watch?v=FTQbiNvZqaY
+      - name: AC/DC
+        songs:
+          - title: Highway to Hell
+            youtube_link: https://www.youtube.com/watch?v=gEPmA3USJdI
+      - name: R.E.M
+        songs:
+          - title: Losing My Religion
+            youtube_link: https://www.youtube.com/watch?v=xwtdhWltSIg
+      - name: ABBA
+        songs:
+          - title: Gimme! Gimme! Gimme!
+            youtube_link: https://www.youtube.com/watch?v=XEjLoHdbVeE
+      - name: Eagles
+        songs:
+          - title: Hotel California
+            youtube_link: https://www.youtube.com/watch?v=BciS5krYL80
+      - name: Europe
+        songs:
+          - title: The Final Countdown
+            youtube_link: https://www.youtube.com/watch?v=9jK-NcRmVcw
+      - title: Pink Floyd
+        songs:
+          - title: Another Brick in The Wall
+            youtube_link: https://www.youtube.com/watch?v=5IpYOF4Hi6Q
+  - genre: GENRE
+    artists:
+      - name: ARTISTE
+        songs:
+          - title: TITRE
+            youtube_link: LIEN
+  - genre: GENRE
+    artists:
+      - name: ARTISTE
+        songs:
+          - title: TITRE
+            youtube_link: LIEN
+  - genre: GENRE
+    artists:
+      - name: ARTISTE
+        songs:
+          - title: TITRE
+            youtube_link: LIEN

@@ -32,13 +32,13 @@ document.addEventListener('DOMContentLoaded', function() {
           genreContent.classList.toggle('active');
         });
 
-        genre.artistes.forEach(function(interprete) {
+        genre.artists.forEach(function(interprete) {
           const interpreteItem = document.createElement('div');
           interpreteItem.classList.add('accordion-item');
 
           const interpreteHeader = document.createElement('button');
           interpreteHeader.classList.add('accordion-header');
-          interpreteHeader.textContent = interprete.nom;
+          interpreteHeader.textContent = interprete.name;
 
           const interpreteContent = document.createElement('div');
           interpreteContent.classList.add('accordion-content');
@@ -59,15 +59,15 @@ document.addEventListener('DOMContentLoaded', function() {
             interpreteContent.classList.toggle('active');
           });
 
-          interprete.chansons.forEach(function(chanson) {
+          interprete.songs.forEach(function(chanson) {
             const chansonItem = document.createElement('li');
             const chansonLink = document.createElement('a');
-            chansonLink.href = chanson.lien_youtube;
+            chansonLink.href = chanson.youtube_link;
             chansonLink.target = '_blank'; // Ouvrir le lien dans un nouvel onglet
-            chansonLink.textContent = chanson.nom; // Définition du texte du lien
+            chansonLink.textContent = chanson.title; // Définition du texte du lien
           
             chansonItem.appendChild(chansonLink); // Ajout du lien à l'élément li
-            interpreteContent.appendChild(chansonItem); // Ajout de l'élément li à la liste des chansons
+            interpreteContent.appendChild(chansonItem); // Ajout de l'élément li à la liste des musiques
           });
         });
       });

@@ -63,6 +63,8 @@
 
 .accordion-content li a {
   display: block;
+  color: black; /* Couleur du texte */
+  text-decoration: none; /* Suppression du soulignement */
 }
 
 .accordion-content li {
