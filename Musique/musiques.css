@@ -51,3 +51,13 @@
     color: blue; /* Couleur de texte au survol */
   }
   
+
+/* Style pour afficher le contenu lorsqu'il est actif */
+.accordion-content.active {
+  display: block;
+}
+
+.accordion-content li a:hover {
+  background-color: #f0f0f0;
+}
+
