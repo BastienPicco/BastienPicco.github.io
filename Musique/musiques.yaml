@@ -228,10 +228,6 @@ musics:
         songs:
           - title: Ouragan
             youtube_link: https://www.youtube.com/watch?v=zAqmHS7CzYE
-      - name: Autres
-        songs:
-          - title: Bagad de Lann-Bihoué
-            youtube_link: https://www.youtube.com/watch?v=Kd0N0a-NX5k
       - name: Nâdiya
         songs:
           - title: Roc
@@ -474,7 +470,7 @@ musics:
 
   - genre: Disney
     artists:
-     - name: Frozen 2
+      - name: Frozen 2
         songs:
           - title: Show Yourself
             youtube_link: https://www.youtube.com/watch?v=nrZxwPwmgrw
@@ -515,15 +511,11 @@ musics:
             youtube_link: https://www.youtube.com/watch?v=v-81ftrB6SU
       - name: André Rieu
         songs:
-          - title:The Lonely Shepherd
+          - title: The Lonely Shepherd
             youtube_link: https://www.youtube.com/watch?v=orL-w2QBiN8
 
   - genre: Italien
     artists:
-      - name: Bella Ciao
-        songs:
-          - title: Bella Ciao
-            youtube_link: https://www.youtube.com/watch?v=XXidBV1H-H4
       - name: Luciano Pavarotti
         songs:
           - title: Nessun dorma - Turandot
@@ -540,6 +532,10 @@ musics:
         songs:
           - title: La Solitudine
             youtube_link: https://www.youtube.com/watch?v=FpOEN93LX-E
+      - name: Autres
+        songs:
+          - title: Bella Ciao
+            youtube_link: https://www.youtube.com/watch?v=XXidBV1H-H4
 
   - genre: Rap
     artists:
@@ -566,10 +562,6 @@ musics:
         songs:
           - title: Never See Them Again
             youtube_link: https://www.youtube.com/watch?v=nZjAodGSqvE
-      - name: Autres
-        songs:
-          - title: Oi u luzi chervona kalyna
-            youtube_link: https://www.youtube.com/watch?v=LIUoFuSuvTM
       - name: Trio Mandili
         songs:
           - title: Kakhuri
@@ -590,6 +582,10 @@ musics:
         songs:
           - title: Le Roi Louis
             youtube_link: https://www.youtube.com/watch?v=sLr1GZ5oI2Y
+      - name: Autres
+        songs:
+          - title: Oi u luzi chervona kalyna
+            youtube_link: https://www.youtube.com/watch?v=LIUoFuSuvTM
 
   - genre: Autres
     artists:
@@ -613,3 +609,7 @@ musics:
         songs:
           - title: F.R.A.N.C.E - Nightcore
             youtube_link: https://www.youtube.com/watch?v=aj0UzopJ6I0
+      - name: Autres
+        songs:
+          - title: Bagad de Lann-Bihoué
+            youtube_link: https://www.youtube.com/watch?v=Kd0N0a-NX5k
