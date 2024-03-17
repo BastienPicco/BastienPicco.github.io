@@ -85,7 +85,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Fonction pour charger la vidéo YouTube dans le lecteur
 function chargerVideoYoutube(videoId) {
-  console.log(player);
   player.loadVideoById(videoId);
 }
 
@@ -117,7 +116,6 @@ function choisirVideoAleatoire() {
   var index = Math.floor(Math.random() * videoLinks.length);
   var href = videoLinks[index].getAttribute('href');
   var videoId = extraireIdVideo(href);
-  console.log(videoId);
   chargerVideoYoutube(videoId);
 }
 
