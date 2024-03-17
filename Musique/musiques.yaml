@@ -41,6 +41,12 @@ musics:
         songs:
           - title: Hey Jude
             youtube_link: https://www.youtube.com/watch?v=A_MjCqQoLLA
+      - name: Elton John
+        songs:
+          - title: I'm Still Standing
+            youtube_link: https://www.youtube.com/watch?v=ZHwVBirqD2s
+          - title: Rocket Man
+            youtube_link: https://www.youtube.com/watch?v=DtVBCG6ThDk
 
   - genre: Rock
     artists:
@@ -76,6 +82,14 @@ musics:
         songs:
           - title: Total Eclipse of the Heart
             youtube_link: https://www.youtube.com/watch?v=lcOxhH8N3Bo
+      - name: Nickelback
+        songs:
+          - title: How You Remind Me
+            youtube_link: https://www.youtube.com/watch?v=hhSLkkLl750
+      - name: WIND ROSE
+        songs:
+          - title: Army Of Stone
+            youtube_link: https://www.youtube.com/watch?v=SFxKm8zxCeE
 
   - genre: Métal
     artists:
@@ -123,6 +137,10 @@ musics:
         songs:
           - title: Eden
             youtube_link: https://www.youtube.com/watch?v=_hzssKb9940
+      - name: Ghost
+        songs:
+          - title: Jesus He Knows Me (Genesis)
+            youtube_link: https://www.youtube.com/watch?v=GBiKayMXLk0
 
   - genre: Francophonie
     artists:
@@ -186,6 +204,54 @@ musics:
         songs:
           - title: L'aventurier
             youtube_link: https://www.youtube.com/watch?v=M7X6oYg6iro
+      - name: Charles Aznavour
+        songs:
+          - title: Emmenez-moi
+            youtube_link: https://www.youtube.com/watch?v=0OrKMaeQUx0
+      - name: Jacques Brel
+        songs:
+          - title: Amsterdam
+            youtube_link: https://www.youtube.com/watch?v=V3BSj1cHX-M
+      - name: Edith Piaf
+        songs:
+          - title: La vie en rose
+            youtube_link: https://www.youtube.com/watch?v=-0KvBnIvTFs
+      - name: Candice Parise
+        songs:
+          - title: F.R.A.N.C.E
+            youtube_link: https://www.youtube.com/watch?v=HE5uK1jAXx4
+      - name: Eddy Mitchell
+        songs:
+          - title: Couleur menthe à l'eau
+            youtube_link: https://www.youtube.com/watch?v=CCYN79b6_ks
+      - name: Stephanie De Monaco
+        songs:
+          - title: Ouragan
+            youtube_link: https://www.youtube.com/watch?v=zAqmHS7CzYE
+      - name: Autres
+        songs:
+          - title: Bagad de Lann-Bihoué
+            youtube_link: https://www.youtube.com/watch?v=Kd0N0a-NX5k
+      - name: Nâdiya
+        songs:
+          - title: Roc
+            youtube_link: https://www.youtube.com/watch?v=kjCqqogqCY0
+      - name: Julie Pietri
+        songs:
+          - title: Eve lève-toi
+            youtube_link: https://www.youtube.com/watch?v=C6kh55fDls8
+      - name: Pomme
+        songs:
+          - title: On brûlera
+            youtube_link: https://www.youtube.com/watch?v=jabih9mV6RQ
+      - name: Indila
+        songs:
+          - title: Dernière Danse
+            youtube_link: https://www.youtube.com/watch?v=K5KAc5CoCuk
+      - name: France Gall
+        songs:
+          - title: Ella, elle l'a
+            youtube_link: https://www.youtube.com/watch?v=lgHGU8gqz9U
 
   - genre: Pop
     artists:
@@ -193,10 +259,14 @@ musics:
         songs:
           - title: Billie Jean
             youtube_link: https://www.youtube.com/watch?v=Zi_XLOBDo_Y
+          - title: Beat It
+            youtube_link: https://www.youtube.com/watch?v=oRdxUFDoQe0
       - name: Christina Perri
         songs:
           - title: Jar of Hearts
             youtube_link: https://www.youtube.com/watch?v=8v_4O44sfjM
+          - title: Human
+            youtube_link: https://www.youtube.com/watch?v=r5yaoMjaAmE
       - name: Rick Astley
         songs:
           - title: Never Gonna Give You Up
@@ -225,6 +295,86 @@ musics:
         songs:
           - title: Na Na Hey Hey Kiss Him Goodbye
             youtube_link: https://www.youtube.com/watch?v=TV6WWT3zCEc
+      - name: Lady Gaga
+        songs:
+          - title: Bad Romance
+            youtube_link: https://www.youtube.com/watch?v=qrO4YZeyl0I
+      - name: Everybody Loves An Outlaw
+        songs:
+          - title: I See Red
+            youtube_link: https://www.youtube.com/watch?v=rRFsZ1bifm0
+      - name: Michael Sembello
+        songs:
+          - title: Maniac
+            youtube_link: https://www.youtube.com/watch?v=6GCNUeTFSbA
+      - name: Tears For Fears
+        songs:
+          - title: Mad World
+            youtube_link: https://www.youtube.com/watch?v=u1ZvPSpLxCg
+      - name: AURORA
+        songs:
+          - title: Murder Song (5, 4, 3, 2, 1)
+            youtube_link: https://www.youtube.com/watch?v=jTwdGRHl5Mw
+          - title: The Seed
+            youtube_link: https://www.youtube.com/watch?v=_Mc_OM5oNA8
+      - name: Eurythmics
+        songs:
+          - title: Sweet Dreams (Are Made Of This)
+            youtube_link: https://www.youtube.com/watch?v=qeMFqkcPYcg
+      - name: Céline Dion
+        songs:
+          - title: I'm Alive
+            youtube_link: https://www.youtube.com/watch?v=NJsa6-y4sDs
+      - name: John Denver
+        songs:
+          - title: Take Me Home, Country Roads
+            youtube_link: https://www.youtube.com/watch?v=h5NxBAYlGZQ
+      - name: A-HA
+        songs:
+          - title: Take On Me
+            youtube_link: https://www.youtube.com/watch?v=djV11Xbc914
+      - name: Joan Baez
+        songs:
+          - title: Blowin' in the Wind
+            youtube_link: https://www.youtube.com/watch?v=jRefH48gi1g
+      - name: Wham!
+        songs:
+          - title: Wake Me Up Before You Go-Go
+            youtube_link: https://www.youtube.com/watch?v=pIgZ7gMze7A
+      - name: Dua Lipa
+        songs:
+          - title: Fever (Feat. Angèle)
+            youtube_link: https://www.youtube.com/watch?v=vs61OHs2g-w
+      - name: Rag'n'Bone Man
+        songs:
+          - title: Human
+            youtube_link: https://www.youtube.com/watch?v=L3wKzyIN1yk
+      - name: Cami-Cat
+        songs:
+          - title: Running Up That Hill (Kate Bush)
+            youtube_link: https://www.youtube.com/watch?v=dRXmBziicZw
+      - name: Laura Branigan
+        songs:
+          - title: Self Control
+            youtube_link: https://www.youtube.com/watch?v=RP0_8J7uxhs
+      - name: Gloria Gaynor
+        songs:
+          - title: I Will Survive
+            youtube_link: https://www.youtube.com/watch?v=6dYWe1c3OyU
+      - name: Fool's Garden
+        songs:
+          - title: Lemon tree
+            youtube_link: https://www.youtube.com/watch?v=7m9ivNr-HLE
+      - name: Dido
+        songs:
+          - title: Thank You
+            youtube_link: https://www.youtube.com/watch?v=1TO48Cnl66w
+          - title: Life for Rent
+            youtube_link: https://www.youtube.com/watch?v=OFtNChII78k
+      - name: Cutting Crew
+        songs:
+          - title: (I Just) Died In Your Arms
+            youtube_link: https://www.youtube.com/watch?v=6dOwHzCHfgA
 
   - genre: Youtube
     artists:
@@ -256,6 +406,30 @@ musics:
         songs:
           - title: Hellfire
             youtube_link: https://www.youtube.com/watch?v=ADTA2rU-l-8
+      - name: The Yogscast
+        songs:
+          - title: Diggy Diggy Hole
+            youtube_link: https://www.youtube.com/watch?v=ytWz0qVvBZ0
+      - name: Bob Lennon
+        songs:
+          - title: UN BARBARE (Feat. Bob Lennon et Mioune)
+            youtube_link: https://www.youtube.com/watch?v=Y4tNoybCKTU
+      - name: Charlie et Stylien
+        songs:
+          - title: LA RENTRÉE...
+            youtube_link: https://www.youtube.com/watch?v=EwzVdKvs5CI
+      - name: Lindsey Stirling
+        songs:
+          - title: Shatter Me (Feat. Lzzy Hale)
+            youtube_link: https://www.youtube.com/watch?v=49tpIMDy9BE
+      - name: ZeratoR
+        songs:
+          - title: ANONYME
+            youtube_link: https://www.youtube.com/watch?v=yeHnr3UQOM4
+      - name: LittleBigWhale
+        songs:
+          - title: KARAOKÉ - ZEVENT 2022
+            youtube_link: https://www.youtube.com/watch?v=9d-0aReGyQ0
 
   - genre: Jeux Vidéos / Films
     artists:
@@ -279,8 +453,26 @@ musics:
         songs:
           - title: Priscilla's Song
             youtube_link: https://www.youtube.com/watch?v=2bSk-8C76dc
+          - title: Lullaby of Woe
+            youtube_link: https://www.youtube.com/watch?v=ohNpf4VnlP8
+      - name: Portal
+        songs:
+          - title: Still Alive
+            youtube_link: https://www.youtube.com/watch?v=Y6ljFaKRTrI
+      - name: Against The Current - LoL
+        songs:
+          - title: Legends Never Die
+            youtube_link: https://www.youtube.com/watch?v=r6zIGXun57U
+      - name: Warframe
+        songs:
+          - title: We All Lift Together
+            youtube_link: https://www.youtube.com/watch?v=mPTCq3LiZSE
+      - name: Naheulbeuk
+        songs:
+          - title: Mon Ancètre Gurdil
+            youtube_link: https://www.youtube.com/watch?v=3TAQViG36QA
 
-  - genre: Jeux Vidéos / Films
+  - genre: Disney
     artists:
      - name: Frozen 2
         songs:
@@ -313,6 +505,18 @@ musics:
         songs:
           - title: Thunderstruck
             youtube_link: https://www.youtube.com/watch?v=uT3SBzmDxGk
+      - name: Clamavi De Profundis
+        songs:
+          - title: Song of Durin
+            youtube_link: https://www.youtube.com/watch?v=uxfoa23skHg
+      - name: Ennio Morricone
+        songs:
+          - title: Chi Mai
+            youtube_link: https://www.youtube.com/watch?v=v-81ftrB6SU
+      - name: André Rieu
+        songs:
+          - title:The Lonely Shepherd
+            youtube_link: https://www.youtube.com/watch?v=orL-w2QBiN8
 
   - genre: Italien
     artists:
@@ -355,3 +559,57 @@ musics:
         songs:
           - title: Fake Woke
             youtube_link: https://www.youtube.com/watch?v=2l6JUNFAJ9o
+
+  - genre: Folk
+    artists:
+      - name: Simon Fin Schütt
+        songs:
+          - title: Never See Them Again
+            youtube_link: https://www.youtube.com/watch?v=nZjAodGSqvE
+      - name: Autres
+        songs:
+          - title: Oi u luzi chervona kalyna
+            youtube_link: https://www.youtube.com/watch?v=LIUoFuSuvTM
+      - name: Trio Mandili
+        songs:
+          - title: Kakhuri
+            youtube_link: https://www.youtube.com/watch?v=EDK9KOfknTw
+      - name: OmegaSign
+        songs:
+          - title: Sztoj Pa Moru (Slavic Trap)
+            youtube_link: https://www.youtube.com/watch?v=rSIDz0k_tyw
+      - name: Laboratorium Pieśni
+        songs:
+          - title: Sztoj Pa Moru
+            youtube_link: https://www.youtube.com/watch?v=04fEWQOwUD4
+      - name: Elthin
+        songs:
+          - title: Fort Boyard
+            youtube_link: https://www.youtube.com/watch?v=BoC8qFVuKDs
+      - name: Ex Cathedra
+        songs:
+          - title: Le Roi Louis
+            youtube_link: https://www.youtube.com/watch?v=sLr1GZ5oI2Y
+
+  - genre: Autres
+    artists:
+      - name: Zayde Wolf
+        songs:
+          - title: HEROES
+            youtube_link: https://www.youtube.com/watch?v=jeTTeLTzDEQ
+      - name: Sound Of Legend
+        songs:
+          - title: Infinity
+            youtube_link: https://www.youtube.com/watch?v=4B2puzZB4dw
+      - name: Daniele Vitale Sax
+        songs:
+          - title: DANCE MONKEY
+            youtube_link: https://www.youtube.com/watch?v=XBWyE1v8--I
+      - name: Ana De Armas (Campari Entering Red)
+        songs:
+          - title: 3000 Miles
+            youtube_link: https://www.youtube.com/watch?v=oItTMvQ5Olk
+      - name: Arbnis
+        songs:
+          - title: F.R.A.N.C.E - Nightcore
+            youtube_link: https://www.youtube.com/watch?v=aj0UzopJ6I0
