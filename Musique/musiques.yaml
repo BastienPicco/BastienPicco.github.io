@@ -37,6 +37,10 @@ musics:
         songs:
           - title: Another Brick in The Wall
             youtube_link: https://www.youtube.com/watch?v=5IpYOF4Hi6Q
+      - name: Beatles
+        songs:
+          - title: Hey Jude
+            youtube_link: https://www.youtube.com/watch?v=A_MjCqQoLLA
 
   - genre: Rock
     artists:
@@ -122,49 +126,232 @@ musics:
 
   - genre: Francophonie
     artists:
-      - name: ARTISTE
+      - name: Johnny Hallyday
         songs:
-          - title: TITRE
-            youtube_link: LIEN
+          - title: Allumer Le Feu
+            youtube_link: https://www.youtube.com/watch?v=s3O1Xro7oAI
+      - name: Lara Fabian
+        songs:
+          - title: Je suis Malade
+            youtube_link: https://www.youtube.com/watch?v=aIbsrEyWddk
+      - name: Daniel Balavoine
+        songs:
+          - title: Tous les cris les S.O.S
+            youtube_link: https://www.youtube.com/watch?v=urWV2OjAmUQ
+      - name: Michel Sardou
+        songs:
+          - title: Les lacs du Connemara
+            youtube_link: https://www.youtube.com/watch?v=bpEmjxobvbY
+      - name: Francis Cabrel
+        songs:
+          - title: L'encre de tes yeux
+            youtube_link: https://www.youtube.com/watch?v=aKkvU_NnPhg
+      - name: Jean-Jacques Goldman
+        songs:
+          - title: Envole-moi
+            youtube_link: https://www.youtube.com/watch?v=oltptNDHocw
+      - name: Manau
+        songs:
+          - title: La tribu de Dana
+            youtube_link: https://www.youtube.com/watch?v=80hMEKlLVgQ
+      - name: Nolwenn Leroy
+        songs:
+          - title: Tri Martolod
+            youtube_link: https://www.youtube.com/watch?v=jTuBnZrLbq0
+      - name: Barbara Pravi
+        songs:
+          - title: Voilà
+            youtube_link: https://www.youtube.com/watch?v=Unj9WbeLzRU
+      - name: Khaled
+        songs:
+          - title: Aicha
+            youtube_link: https://www.youtube.com/watch?v=gzlHucbD76U
+      - name: Stromae
+        songs:
+          - title: Papaoutai
+            youtube_link: https://www.youtube.com/watch?v=oiKj0Z_Xnjc
+      - name: Trois Cafés Gourmands
+        songs:
+          - title: À nos souvenirs
+            youtube_link: https://www.youtube.com/watch?v=voQhp1K2TSk
+      - name: Marie Myriam
+        songs:
+          - title: L'oiseau et l'enfant
+            youtube_link: https://www.youtube.com/watch?v=uwJUhRWpk4E
+      - name: Barbara
+        songs:
+          - title: L'aigle noir
+            youtube_link: https://www.youtube.com/watch?v=4heMfS5jTxY
+      - name: Indochine
+        songs:
+          - title: L'aventurier
+            youtube_link: https://www.youtube.com/watch?v=M7X6oYg6iro
 
   - genre: Pop
     artists:
-      - name: ARTISTE
+      - name: Michael Jackson
         songs:
-          - title: TITRE
-            youtube_link: LIEN
+          - title: Billie Jean
+            youtube_link: https://www.youtube.com/watch?v=Zi_XLOBDo_Y
+      - name: Christina Perri
+        songs:
+          - title: Jar of Hearts
+            youtube_link: https://www.youtube.com/watch?v=8v_4O44sfjM
+      - name: Rick Astley
+        songs:
+          - title: Never Gonna Give You Up
+            youtube_link: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+      - name: Katy Perry
+        songs:
+          - title: Firework
+            youtube_link: https://www.youtube.com/watch?v=QGJuMBdaqIw
+      - name: John Legend
+        songs:
+          - title: All of Me
+            youtube_link: https://www.youtube.com/watch?v=450p7goxZqg
+      - name: Sia
+        songs:
+          - title: Courage To Change
+            youtube_link: https://www.youtube.com/watch?v=mWQACEqf4QY
+      - name: Adele
+        songs:
+          - title: Rolling in the Deep
+            youtube_link: https://www.youtube.com/watch?v=rYEDA3JcQqw
+      - name: Stevie Wonder
+        songs:
+          - title: Part-Time Lover
+            youtube_link: https://www.youtube.com/watch?v=MpDM6ygsb20
+      - name: Leka
+        songs:
+          - title: Na Na Hey Hey Kiss Him Goodbye
+            youtube_link: https://www.youtube.com/watch?v=TV6WWT3zCEc
 
   - genre: Youtube
     artists:
-      - name: ARTISTE
+      - name: Peter Hollens
         songs:
-          - title: TITRE
-            youtube_link: LIEN
+          - title: I See Fire (Ed Sheeran)
+            youtube_link: https://www.youtube.com/watch?v=yymS1Pb7JfM
+      - name: Mioune
+        songs:
+          - title: Fear Not This Night - Guild Wars 2
+            youtube_link: https://www.youtube.com/watch?v=leVDYOg-43s
+      - name: Malukah
+        songs:
+          - title: The Dragonborn Comes - Skyrim Bard Song and Main Theme
+            youtube_link: https://www.youtube.com/watch?v=4z9TdDCWN7g
+      - name: Alina Gingertail
+        songs:
+          - title: Naranca (Elvis Stanic)
+            youtube_link: https://www.youtube.com/watch?v=XZ5GDzdmKnM
+      - name: Malinda
+        songs:
+          - title: Edge of Night - Pippin's Song
+            youtube_link: https://www.youtube.com/watch?v=MGmPwhWA7tM
+      - name: VoicePlay
+        songs:
+          - title: Hoist the Colours
+            youtube_link: https://www.youtube.com/watch?v=vO8NEsx9m58
+      - name: Annapantsu
+        songs:
+          - title: Hellfire
+            youtube_link: https://www.youtube.com/watch?v=ADTA2rU-l-8
 
   - genre: Jeux Vidéos / Films
     artists:
-      - name: ARTISTE
+      - name: Dishonored
         songs:
-          - title: TITRE
-            youtube_link: LIEN
+          - title: Honor For All
+            youtube_link: https://www.youtube.com/watch?v=JkgDFgdkosM
+      - name: AC Valhalla
+        songs:
+          - title: My Mother Told Me
+            youtube_link: https://www.youtube.com/watch?v=3Hg5bXroHbg
+      - name: The Greatest Showman
+        songs:
+          - title: Never Enough
+            youtube_link: https://www.youtube.com/watch?v=6jZVsr7q-tE
+      - name: Skyrim
+        songs:
+          - title: Dovahkiin Song
+            youtube_link: https://www.youtube.com/watch?v=AVy7YPNP_zI
+      - name: The Witcher III
+        songs:
+          - title: Priscilla's Song
+            youtube_link: https://www.youtube.com/watch?v=2bSk-8C76dc
+
+  - genre: Jeux Vidéos / Films
+    artists:
+     - name: Frozen 2
+        songs:
+          - title: Show Yourself
+            youtube_link: https://www.youtube.com/watch?v=nrZxwPwmgrw
 
   - genre: Musique
     artists:
-      - name: ARTISTE
+      - name: Epic Music World
         songs:
-          - title: TITRE
-            youtube_link: LIEN
+          - title: City of the Dead
+            youtube_link: https://www.youtube.com/watch?v=lbUM0HpxdBI
+      - name: Two Steps From Hell
+        songs:
+          - title: Heart of Courage
+            youtube_link: https://www.youtube.com/watch?v=K2iC1aCPbKA
+      - name: Tchaikovsky
+        songs:
+          - title: Le lac des cygnes
+            youtube_link: https://www.youtube.com/watch?v=CRhnXjlqfrw
+      - name: Carl Orff
+        songs:
+          - title: Carmina Burana
+            youtube_link: https://www.youtube.com/watch?v=zOVP7qfWMA8
+      - name: Hans Zimmer
+        songs:
+          - title: Pirates Of The Caribbean
+            youtube_link: https://www.youtube.com/watch?v=C0_sN4QwgSA
+      - name: 2Cellos
+        songs:
+          - title: Thunderstruck
+            youtube_link: https://www.youtube.com/watch?v=uT3SBzmDxGk
 
   - genre: Italien
     artists:
-      - name: ARTISTE
+      - name: Bella Ciao
         songs:
-          - title: TITRE
-            youtube_link: LIEN
+          - title: Bella Ciao
+            youtube_link: https://www.youtube.com/watch?v=XXidBV1H-H4
+      - name: Luciano Pavarotti
+        songs:
+          - title: Nessun dorma - Turandot
+            youtube_link: https://www.youtube.com/watch?v=cWc7vYjgnTs
+      - name: Andrea Bocelli
+        songs:
+          - title: Vivo per lei
+            youtube_link: https://www.youtube.com/watch?v=CNHL66K8S2I
+      - name: Miami
+        songs:
+          - title: Tu vivi nell'aria
+            youtube_link: https://www.youtube.com/watch?v=bCSqkN9N3tg
+      - name: Laura Pausini
+        songs:
+          - title: La Solitudine
+            youtube_link: https://www.youtube.com/watch?v=FpOEN93LX-E
 
   - genre: Rap
     artists:
-      - name: ARTISTE
+      - name: OrelSan
         songs:
-          - title: TITRE
-            youtube_link: LIEN
+          - title: La pluie (feat. Stromae)
+            youtube_link: https://www.youtube.com/watch?v=37StRy0LEbI
+      - name: Bigflo & Oli
+        songs:
+          - title: Bienvenue chez moi
+            youtube_link: https://www.youtube.com/watch?v=PTJLmBfG8yc
+      - name: Eminem
+        songs:
+          - title: Lose Yourself
+            youtube_link: https://www.youtube.com/watch?v=xFYQQPAOz7Y
+      - name: Tom MacDonalds
+        songs:
+          - title: Fake Woke
+            youtube_link: https://www.youtube.com/watch?v=2l6JUNFAJ9o
