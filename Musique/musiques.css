@@ -1,55 +1,50 @@
-.accordion {
-    width: 80%; /* Limite la largeur à 80% de l'espace horizontal */
-    margin: 0 auto; /* Centre l'accordéon horizontalement */
-  }
-  
-  .accordion-item {
-    margin-bottom: 10px;
-  }
-  
-  .accordion-header {
-    background-color: #f4f4f4;
-    padding: 10px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-  }
-  
-  .accordion-content {
-    padding-left: 20px;
-    display: none;
-  }
-  
-  ul {
-    list-style-type: none;
-  }
-  
-  ul li {
-    padding: 5px 0;
-  }
-  
-  /* Ajouter un espace vertical entre le genre musical et le premier interprète */
-  .accordion-item > .accordion-content > .accordion-item:first-child {
-    margin-top: 10px;
-  }
-  
-  /* Effet hover */
-  .accordion-header:hover,
-  ul li:hover {
-    background-color: #e0e0e0; /* Couleur de fond au survol */
-  }
-  
-  ul li a {
-    display: block; /* Pour étendre le lien à toute la largeur du li */
-    text-decoration: none; /* Enlever la décoration de lien */
-    color: black; /* Couleur de texte par défaut */
-  }
-  
-  ul li a:hover {
-    color: blue; /* Couleur de texte au survol */
-  }
+.accordion-item {
+  margin-bottom: 10px;
+}
+
+.accordion-header {
+  background-color: #f4f4f4;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.accordion-content {
+  padding-left: 20px;
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+/* Ajouter un espace vertical entre le genre musical et le premier interprète */
+.accordion-item > .accordion-content > .accordion-item:first-child {
+  margin-top: 10px;
+}
+
+/* Effet hover */
+.accordion-header:hover,
+ul li:hover {
+  background-color: #e0e0e0; /* Couleur de fond au survol */
+}
+
+ul li a {
+  display: block; /* Pour étendre le lien à toute la largeur du li */
+  text-decoration: none; /* Enlever la décoration de lien */
+  color: black; /* Couleur de texte par défaut */
+}
+
+ul li a:hover {
+  color: blue; /* Couleur de texte au survol */
+}
   
 
 /* Style pour afficher le contenu lorsqu'il est actif */
@@ -74,3 +69,30 @@
 .accordion-content li:hover {
   background-color: #f0f0f0;
 }
+
+.accordion {
+  position: fixed;
+  left: 5%;
+  width: 90%;
+  height: 50%;/**calc(100vh - 315px); /* Hauteur de la fenêtre moins la hauteur de la vidéo */
+  overflow-y: auto; /* Activation du défilement vertical si nécessaire */
+  padding: 10px; /* Ajoute un peu d'espace pour éviter que les éléments ne touchent les bords */
+}
+
+.video-container {
+  position: fixed;
+  bottom: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1; /* Assure que la vidéo est au-dessus des autres éléments */
+}
+
+
+#player-container {
+  position: fixed;
+  bottom: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1; /* Assure que la vidéo est au-dessus des autres éléments */
+}
+
