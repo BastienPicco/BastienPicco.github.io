@@ -1,3 +1,6 @@
+var playlist = []; // Tableau pour stocker les ID des vidéos
+var player; // Défini le player
+
 document.addEventListener('DOMContentLoaded', function() {
   fetch('musiques.yaml')
     .then(response => response.text())
@@ -67,12 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
             chansonLink.textContent = chanson.title; // Définition du texte du lien
             chansonLink.classList.add('video-link');
 
-            chansonLink.addEventListener('click', function(event) {
-              event.preventDefault();
-              var href = this.getAttribute('href');
-              var videoId = extraireIdVideo(href);
-              chargerVideoYoutube(videoId);
-            });
+            chansonLink.addEventListener('click', gererClicVideo);
           
             chansonItem.appendChild(chansonLink); // Ajout du lien à l'élément li
             interpreteContent.appendChild(chansonItem); // Ajout de l'élément li à la liste des musiques
@@ -81,45 +79,4 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     })
     .catch(error => console.log(error));
-});
-
-// Fonction pour charger la vidéo YouTube dans le lecteur
-function chargerVideoYoutube(videoId) {
-  player.loadVideoById(videoId);
-}
-
-// Défini le player
-var player;
-function onYouTubeIframeAPIReady() {
-  console.log("IFrame API ready");
-  player = new YT.Player('player', {
-      height: '315',
-      width: '560',
-      videoId: '1UUYjd2rjsE',
-  });
-}
-
-// Fonction pour extraire l'ID de la vidéo à partir de l'URL YouTube
-function extraireIdVideo(url) {
-  var regExp = /(?:\/embed\/|v=)([a-zA-Z0-9_-]+)/;
-  var matches = url.match(regExp);
-  if (matches && matches.length > 1) {
-      return matches[1];
-  } else {
-      return null;
-  }
-}
-
-// Fonction pour choisir aléatoirement une vidéo parmi les liens disponibles
-function choisirVideoAleatoire() {
-  var videoLinks = document.querySelectorAll('.video-link');
-  var index = Math.floor(Math.random() * videoLinks.length);
-  var href = videoLinks[index].getAttribute('href');
-  var videoId = extraireIdVideo(href);
-  chargerVideoYoutube(videoId);
-}
-
-// Écoutez le chargement complet de la page
-window.addEventListener('load', function() {
-  choisirVideoAleatoire(); // Choisissez aléatoirement une vidéo dès que la page est entièrement chargée
 });
