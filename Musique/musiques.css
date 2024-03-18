@@ -73,7 +73,7 @@ ul li a:hover {
 .accordion {
   position: fixed;
   left: 5%;
-  width: 90%;
+  width: 65%;
   height: 50%;/**calc(100vh - 315px); /* Hauteur de la fenêtre moins la hauteur de la vidéo */
   overflow-y: auto; /* Activation du défilement vertical si nécessaire */
   padding: 10px; /* Ajoute un peu d'espace pour éviter que les éléments ne touchent les bords */
@@ -96,3 +96,22 @@ ul li a:hover {
   z-index: 1; /* Assure que la vidéo est au-dessus des autres éléments */
 }
 
+
+#playlist-container {
+  border: 1px solid #ccc;
+  max-height: 300px; /* Taille fixe avec barre de défilement */
+  overflow-y: auto; /* Activation de la barre de défilement en cas de contenu trop long */
+}
+
+#playlist {
+  padding: 10px;
+}
+
+.playlist {
+  position: fixed;
+  right: 5%;
+  width: 25%;
+  height: 50%;/**calc(100vh - 315px); /* Hauteur de la fenêtre moins la hauteur de la vidéo */
+  overflow-y: auto; /* Activation du défilement vertical si nécessaire */
+  padding: 10px; /* Ajoute un peu d'espace pour éviter que les éléments ne touchent les bords */
+}

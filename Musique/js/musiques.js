@@ -35,6 +35,7 @@ function rajouteVideoPlaylist(videoId) {
   // Vérifiez si la vidéo n'est pas déjà dans la playlist
   if (!playlist.includes(videoId)) {
     playlist.push(videoId); // Ajouter l'ID de la vidéo sélectionnée à la playlist
+    mettreAJourPlaylistVisuelle()
   }
 }
 
@@ -80,6 +81,7 @@ function passerVideoSuivante() {
   if (playlist.length > 0) {
       var nextVideoId = playlist.shift(); // Retirez le premier élément de la playlist
       chargerVideoYoutube(nextVideoId); // Chargez la prochaine vidéo
+      mettreAJourPlaylistVisuelle();
   } else {
       choisirVideoAleatoire(); // Si la playlist est vide, on charge une vidéo aléatoirement
   }

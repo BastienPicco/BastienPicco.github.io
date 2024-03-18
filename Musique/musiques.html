@@ -39,20 +39,30 @@
 
 <!-- Main -->
 <div class="container">
-    <div class="accordion"></div>
+
+    <div class="accordion">
+        <!-- Votre liste accordeon ici -->
+    </div>
+    <div class="playlist" id="playlist">
+        <!-- Votre playlist ici -->
+    </div>
+    
 
     <div id="player-container">
         <div id="player"></div>
         <button id="nextButton">Suivant</button>
     </div>
-    
+  
 </div>
 
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/js-yaml/dist/js-yaml.min.js"></script>
 
+<script src="musiques.yaml" id="data" type="text/yaml"></script>
+
 <script src="js/generation.js"></script>
 <script src="js/musiques.js"></script>
+<script src="js/playlist.js"></script>
 
 <link rel="stylesheet" href="musiques.css">
 <script src="https://www.youtube.com/iframe_api"></script>
