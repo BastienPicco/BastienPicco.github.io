@@ -1,5 +1,10 @@
+body{
+  background-color: #f0f0f0;
+}
+
 .accordion-item {
   margin-bottom: 10px;
+  background-color: #e7e7e7;
 }
 
 .accordion-header {
@@ -14,7 +19,16 @@
 
 .accordion-content {
   padding-left: 20px;
+  padding-right: 20px;
   display: none;
+}
+
+.accordion-content a {
+  padding-left: 20px;
+}
+
+.accordion-content .accordion-content {
+  background-color: #d1d1d1;
 }
 
 ul {
@@ -131,7 +145,7 @@ ul li a:hover {
 
 .playlist-item {
   padding: 10px;
-  background-color: #f0f0f0;
+  background-color: #dcdcdc;
   margin-bottom: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -145,4 +159,25 @@ ul li a:hover {
   text-align: center;
   margin-bottom: 20px;
   position: relative; /* Ajouter une position relative pour que les éléments internes soient positionnés par rapport à ce conteneur */
+}
+
+#nextButton {
+  position: absolute;
+  top: 50%;
+  right: -150px; /* Ajustez cette valeur selon vos besoins */
+  transform: translateY(-50%);
+  background-color: #829d84; /* Couleur verte */
+  color: white;
+  border: none;
+  border-radius: 50%; /* Rendre le bouton rond */
+  width: 90px; /* Largeur du bouton */
+  height: 90px; /* Hauteur du bouton */
+  font-size: 24px; /* Taille de la police */
+  line-height: 70px; /* Centrer le texte verticalement */
+  text-align: center; /* Centrer le texte horizontalement */
+  cursor: pointer;
+}
+
+#nextButton:hover {
+  background-color: #45a049; /* Changement de couleur au survol */
 }
