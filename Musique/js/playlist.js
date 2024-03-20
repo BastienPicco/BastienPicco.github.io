@@ -38,8 +38,18 @@ function mettreAJourPlaylistVisuelle() {
     var titreVideo = obtenirTitreVideo(videoId); // Fonction à définir pour obtenir le titre de la vidéo
     if (titreVideo) {
       var listItem = document.createElement('div');
+      listItem.classList.add('playlist-item');
       listItem.textContent = titreVideo;
       playlistContentElement.appendChild(listItem);
     }
   });
 }
+
+// Ajouter un gestionnaire d'événement pour supprimer un élément de la playlist en cliquant dessus
+document.querySelector('.playlist').addEventListener('click', function(event) {
+  if (event.target.classList.contains('playlist-item')) {
+    const index = Array.from(event.target.parentNode.children).indexOf(event.target);
+    event.target.remove();
+    playlist.splice(index, 1);
+  }
+});

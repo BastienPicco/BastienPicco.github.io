@@ -96,22 +96,53 @@ ul li a:hover {
   z-index: 1; /* Assure que la vidéo est au-dessus des autres éléments */
 }
 
-
-#playlist-container {
-  border: 1px solid #ccc;
-  max-height: 300px; /* Taille fixe avec barre de défilement */
-  overflow-y: auto; /* Activation de la barre de défilement en cas de contenu trop long */
-}
-
 #playlist {
   padding: 10px;
 }
 
 .playlist {
   position: fixed;
-  right: 5%;
+  top: 125px;
+  right: 4%;
   width: 25%;
   height: 50%;/**calc(100vh - 315px); /* Hauteur de la fenêtre moins la hauteur de la vidéo */
   overflow-y: auto; /* Activation du défilement vertical si nécessaire */
   padding: 10px; /* Ajoute un peu d'espace pour éviter que les éléments ne touchent les bords */
+  list-style-type: none;
+}
+
+.playlist-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.playlist-header {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: fixed;
+  right: 4%;
+  width: 25%;
+  height: 50%;/**calc(100vh - 315px); /* Hauteur de la fenêtre moins la hauteur de la vidéo */
+  overflow-y: auto; /* Activation du défilement vertical si nécessaire */
+  padding: 10px; /* Ajoute un peu d'espace pour éviter que les éléments ne touchent les bords */
+  list-style-type: none;
+}
+
+.playlist-item {
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.playlist-item:hover {
+  background-color: #fa4c4c;
+}
+
+.playlist-container {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative; /* Ajouter une position relative pour que les éléments internes soient positionnés par rapport à ce conteneur */
 }
