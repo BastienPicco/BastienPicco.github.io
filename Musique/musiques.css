@@ -21,14 +21,17 @@ body{
   padding-left: 20px;
   padding-right: 20px;
   display: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .accordion-content a {
   padding-left: 20px;
+  background-color: #ebebeb;
 }
 
 .accordion-content .accordion-content {
-  background-color: #d1d1d1;
+  background-color: #e1e1e1;
 }
 
 ul {
@@ -47,19 +50,14 @@ ul li {
 /* Effet hover */
 .accordion-header:hover,
 ul li:hover {
-  background-color: #e0e0e0; /* Couleur de fond au survol */
+  background-color: #c6c6c6; /* Couleur de fond au survol */
 }
 
 ul li a {
   display: block; /* Pour étendre le lien à toute la largeur du li */
   text-decoration: none; /* Enlever la décoration de lien */
   color: black; /* Couleur de texte par défaut */
-}
-
-ul li a:hover {
-  color: blue; /* Couleur de texte au survol */
-}
-  
+} 
 
 /* Style pour afficher le contenu lorsqu'il est actif */
 .accordion-content.active {
@@ -67,21 +65,20 @@ ul li a:hover {
 }
 
 .accordion-content li a:hover {
-  background-color: #f0f0f0;
+  background-color: #f1f1f1;
 }
 
 .accordion-content li a {
   display: block;
   color: black; /* Couleur du texte */
   text-decoration: none; /* Suppression du soulignement */
+  margin-bottom: 3px;
+  margin-top: 9px;
+  border: 1px outset #ededed  ;
 }
 
 .accordion-content li {
   list-style-type: none;
-}
-
-.accordion-content li:hover {
-  background-color: #f0f0f0;
 }
 
 .accordion {
@@ -179,5 +176,5 @@ ul li a:hover {
 }
 
 #nextButton:hover {
-  background-color: #45a049; /* Changement de couleur au survol */
+  background-color: #5a8a5c; /* Changement de couleur au survol */
 }
