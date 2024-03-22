@@ -412,6 +412,10 @@ musics:
         songs:
           - title: (I Just) Died In Your Arms
             youtube_link: https://www.youtube.com/watch?v=6dOwHzCHfgA
+      - name: Jefferson Airplane
+        songs:
+          - title: Somebody to Love
+            youtube_link: https://www.youtube.com/watch?v=SrGSt5eDt9o
 
 
 
