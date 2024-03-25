@@ -140,10 +140,6 @@ musics:
         songs:
           - title: The Sound Of Silence
             youtube_link: https://www.youtube.com/watch?v=u9Dg-g7t2l4
-      - name: Jonathan Young
-        songs:
-          - title: HELLFIRE
-            youtube_link: https://www.youtube.com/watch?v=di1XUB0YIzw
       - name: Amaranthe
         songs:
           - title: FEARLESS
@@ -171,27 +167,27 @@ musics:
 
 #################################################################################
 #################################################################################
-####                                    FR                                   ####
+####                                FR (< 2000)                              ####
 #################################################################################
 #################################################################################
-  - genre: Francophonie
+  - genre: Francophonie (pre 2000)
     artists:
-      - name: Johnny Hallyday
-        songs:
-          - title: Allumer Le Feu
-            youtube_link: https://www.youtube.com/watch?v=s3O1Xro7oAI
-      - name: Lara Fabian
-        songs:
-          - title: Je suis Malade
-            youtube_link: https://www.youtube.com/watch?v=aIbsrEyWddk
       - name: Daniel Balavoine
         songs:
           - title: Tous les cris les S.O.S
             youtube_link: https://www.youtube.com/watch?v=urWV2OjAmUQ
-      - name: Michel Sardou
+      - name: France Gall
         songs:
-          - title: Les lacs du Connemara
-            youtube_link: https://www.youtube.com/watch?v=bpEmjxobvbY
+          - title: Ella, elle l'a
+            youtube_link: https://www.youtube.com/watch?v=lgHGU8gqz9U
+      - name: Johnny Hallyday
+        songs:
+          - title: Allumer Le Feu
+            youtube_link: https://www.youtube.com/watch?v=s3O1Xro7oAI
+      - name: Julie Pietri
+        songs:
+          - title: Eve lève-toi
+            youtube_link: https://www.youtube.com/watch?v=C6kh55fDls8
       - name: Francis Cabrel
         songs:
           - title: L'encre de tes yeux
@@ -200,46 +196,14 @@ musics:
         songs:
           - title: Envole-moi
             youtube_link: https://www.youtube.com/watch?v=oltptNDHocw
-      - name: Manau
-        songs:
-          - title: La tribu de Dana
-            youtube_link: https://www.youtube.com/watch?v=80hMEKlLVgQ
-      - name: Nolwenn Leroy
-        songs:
-          - title: Tri Martolod
-            youtube_link: https://www.youtube.com/watch?v=jTuBnZrLbq0
-      - name: Barbara Pravi
-        songs:
-          - title: Voilà
-            youtube_link: https://www.youtube.com/watch?v=Unj9WbeLzRU
-      - name: Khaled
-        songs:
-          - title: Aicha
-            youtube_link: https://www.youtube.com/watch?v=gzlHucbD76U
-      - name: Stromae
-        songs:
-          - title: Papaoutai
-            youtube_link: https://www.youtube.com/watch?v=oiKj0Z_Xnjc
-      - name: Trois Cafés Gourmands
-        songs:
-          - title: À nos souvenirs
-            youtube_link: https://www.youtube.com/watch?v=voQhp1K2TSk
-      - name: Marie Myriam
-        songs:
-          - title: L'oiseau et l'enfant
-            youtube_link: https://www.youtube.com/watch?v=uwJUhRWpk4E
-      - name: Barbara
-        songs:
-          - title: L'aigle noir
-            youtube_link: https://www.youtube.com/watch?v=4heMfS5jTxY
-      - name: Indochine
-        songs:
-          - title: L'aventurier
-            youtube_link: https://www.youtube.com/watch?v=M7X6oYg6iro
       - name: Charles Aznavour
         songs:
           - title: Emmenez-moi
             youtube_link: https://www.youtube.com/watch?v=0OrKMaeQUx0
+      - name: Khaled
+        songs:
+          - title: Aicha
+            youtube_link: https://www.youtube.com/watch?v=gzlHucbD76U
       - name: Jacques Brel
         songs:
           - title: Amsterdam
@@ -248,38 +212,82 @@ musics:
         songs:
           - title: La vie en rose
             youtube_link: https://www.youtube.com/watch?v=-0KvBnIvTFs
-      - name: Candice Parise
+      - name: Indochine
         songs:
-          - title: F.R.A.N.C.E
-            youtube_link: https://www.youtube.com/watch?v=HE5uK1jAXx4
+          - title: L'aventurier
+            youtube_link: https://www.youtube.com/watch?v=M7X6oYg6iro
+      - name: Marie Myriam
+        songs:
+          - title: L'oiseau et l'enfant
+            youtube_link: https://www.youtube.com/watch?v=uwJUhRWpk4E
+      - name: Barbara
+        songs:
+          - title: L'aigle noir
+            youtube_link: https://www.youtube.com/watch?v=4heMfS5jTxY
       - name: Eddy Mitchell
         songs:
           - title: Couleur menthe à l'eau
             youtube_link: https://www.youtube.com/watch?v=CCYN79b6_ks
-      - name: Stephanie De Monaco
+      - name: Michel Sardou
         songs:
-          - title: Ouragan
-            youtube_link: https://www.youtube.com/watch?v=zAqmHS7CzYE
-      - name: Nâdiya
+          - title: Les lacs du Connemara
+            youtube_link: https://www.youtube.com/watch?v=bpEmjxobvbY
+
+
+
+
+
+#################################################################################
+#################################################################################
+####                                FR  (> 2000)                             ####
+#################################################################################
+#################################################################################
+  - genre: Francophonie (post 2000)
+    artists:
+      - name: Lara Fabian
         songs:
-          - title: Roc
-            youtube_link: https://www.youtube.com/watch?v=kjCqqogqCY0
-      - name: Julie Pietri
+          - title: Je suis Malade
+            youtube_link: https://www.youtube.com/watch?v=aIbsrEyWddk
+      - name: Barbara Pravi
         songs:
-          - title: Eve lève-toi
-            youtube_link: https://www.youtube.com/watch?v=C6kh55fDls8
-      - name: Pomme
+          - title: Voilà
+            youtube_link: https://www.youtube.com/watch?v=Unj9WbeLzRU
+      - name: Manau
         songs:
-          - title: On brûlera
-            youtube_link: https://www.youtube.com/watch?v=jabih9mV6RQ
+          - title: La tribu de Dana
+            youtube_link: https://www.youtube.com/watch?v=80hMEKlLVgQ
+      - name: Nolwenn Leroy
+        songs:
+          - title: Tri Martolod
+            youtube_link: https://www.youtube.com/watch?v=jTuBnZrLbq0
+      - name: Candice Parise
+        songs:
+          - title: F.R.A.N.C.E
+            youtube_link: https://www.youtube.com/watch?v=HE5uK1jAXx4
       - name: Indila
         songs:
           - title: Dernière Danse
             youtube_link: https://www.youtube.com/watch?v=K5KAc5CoCuk
-      - name: France Gall
+      - name: Stromae
         songs:
-          - title: Ella, elle l'a
-            youtube_link: https://www.youtube.com/watch?v=lgHGU8gqz9U
+          - title: Papaoutai
+            youtube_link: https://www.youtube.com/watch?v=oiKj0Z_Xnjc
+      - name: Pomme
+        songs:
+          - title: On brûlera
+            youtube_link: https://www.youtube.com/watch?v=jabih9mV6RQ
+      - name: Trois Cafés Gourmands
+        songs:
+          - title: À nos souvenirs
+            youtube_link: https://www.youtube.com/watch?v=voQhp1K2TSk
+      - name: Nâdiya
+        songs:
+          - title: Roc
+            youtube_link: https://www.youtube.com/watch?v=kjCqqogqCY0
+      - name: Stephanie De Monaco
+        songs:
+          - title: Ouragan
+            youtube_link: https://www.youtube.com/watch?v=zAqmHS7CzYE
 
 
 
@@ -287,10 +295,10 @@ musics:
 
 #################################################################################
 #################################################################################
-####                                   POP                                   ####
+####                              POP  (< 2000)                              ####
 #################################################################################
 #################################################################################
-  - genre: Pop
+  - genre: Pop (pre 2000)
     artists:
       - name: Michael Jackson
         songs:
@@ -298,98 +306,10 @@ musics:
             youtube_link: https://www.youtube.com/watch?v=Zi_XLOBDo_Y
           - title: Beat It
             youtube_link: https://www.youtube.com/watch?v=oRdxUFDoQe0
-      - name: Christina Perri
-        songs:
-          - title: Jar of Hearts
-            youtube_link: https://www.youtube.com/watch?v=8v_4O44sfjM
-          - title: Human
-            youtube_link: https://www.youtube.com/watch?v=r5yaoMjaAmE
       - name: Rick Astley
         songs:
           - title: Never Gonna Give You Up
             youtube_link: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-      - name: Katy Perry
-        songs:
-          - title: Firework
-            youtube_link: https://www.youtube.com/watch?v=QGJuMBdaqIw
-      - name: John Legend
-        songs:
-          - title: All of Me
-            youtube_link: https://www.youtube.com/watch?v=450p7goxZqg
-      - name: Sia
-        songs:
-          - title: Courage To Change
-            youtube_link: https://www.youtube.com/watch?v=mWQACEqf4QY
-      - name: Adele
-        songs:
-          - title: Rolling in the Deep
-            youtube_link: https://www.youtube.com/watch?v=rYEDA3JcQqw
-      - name: Stevie Wonder
-        songs:
-          - title: Part-Time Lover
-            youtube_link: https://www.youtube.com/watch?v=MpDM6ygsb20
-      - name: Leka
-        songs:
-          - title: Na Na Hey Hey Kiss Him Goodbye
-            youtube_link: https://www.youtube.com/watch?v=TV6WWT3zCEc
-      - name: Lady Gaga
-        songs:
-          - title: Bad Romance
-            youtube_link: https://www.youtube.com/watch?v=qrO4YZeyl0I
-      - name: Everybody Loves An Outlaw
-        songs:
-          - title: I See Red
-            youtube_link: https://www.youtube.com/watch?v=rRFsZ1bifm0
-      - name: Michael Sembello
-        songs:
-          - title: Maniac
-            youtube_link: https://www.youtube.com/watch?v=6GCNUeTFSbA
-      - name: Tears For Fears
-        songs:
-          - title: Mad World
-            youtube_link: https://www.youtube.com/watch?v=u1ZvPSpLxCg
-      - name: AURORA
-        songs:
-          - title: Murder Song (5, 4, 3, 2, 1)
-            youtube_link: https://www.youtube.com/watch?v=jTwdGRHl5Mw
-          - title: The Seed
-            youtube_link: https://www.youtube.com/watch?v=_Mc_OM5oNA8
-      - name: Eurythmics
-        songs:
-          - title: Sweet Dreams (Are Made Of This)
-            youtube_link: https://www.youtube.com/watch?v=qeMFqkcPYcg
-      - name: Céline Dion
-        songs:
-          - title: I'm Alive
-            youtube_link: https://www.youtube.com/watch?v=NJsa6-y4sDs
-      - name: John Denver
-        songs:
-          - title: Take Me Home, Country Roads
-            youtube_link: https://www.youtube.com/watch?v=h5NxBAYlGZQ
-      - name: A-HA
-        songs:
-          - title: Take On Me
-            youtube_link: https://www.youtube.com/watch?v=djV11Xbc914
-      - name: Joan Baez
-        songs:
-          - title: Blowin' in the Wind
-            youtube_link: https://www.youtube.com/watch?v=jRefH48gi1g
-      - name: Wham!
-        songs:
-          - title: Wake Me Up Before You Go-Go
-            youtube_link: https://www.youtube.com/watch?v=pIgZ7gMze7A
-      - name: Dua Lipa
-        songs:
-          - title: Fever (Feat. Angèle)
-            youtube_link: https://www.youtube.com/watch?v=vs61OHs2g-w
-      - name: Rag'n'Bone Man
-        songs:
-          - title: Human
-            youtube_link: https://www.youtube.com/watch?v=L3wKzyIN1yk
-      - name: Cami-Cat
-        songs:
-          - title: Running Up That Hill (Kate Bush)
-            youtube_link: https://www.youtube.com/watch?v=dRXmBziicZw
       - name: Laura Branigan
         songs:
           - title: Self Control
@@ -402,21 +322,149 @@ musics:
         songs:
           - title: Lemon tree
             youtube_link: https://www.youtube.com/watch?v=7m9ivNr-HLE
+      - name: Michael Sembello
+        songs:
+          - title: Maniac
+            youtube_link: https://www.youtube.com/watch?v=6GCNUeTFSbA
+      - name: Tears For Fears
+        songs:
+          - title: Mad World
+            youtube_link: https://www.youtube.com/watch?v=u1ZvPSpLxCg
+      - name: Eurythmics
+        songs:
+          - title: Sweet Dreams (Are Made Of This)
+            youtube_link: https://www.youtube.com/watch?v=qeMFqkcPYcg
+      - name: Jefferson Airplane
+        songs:
+          - title: Somebody to Love
+            youtube_link: https://www.youtube.com/watch?v=SrGSt5eDt9o
+      - name: Céline Dion
+        songs:
+          - title: I'm Alive
+            youtube_link: https://www.youtube.com/watch?v=NJsa6-y4sDs
+      - name: John Denver
+        songs:
+          - title: Take Me Home, Country Roads
+            youtube_link: https://www.youtube.com/watch?v=h5NxBAYlGZQ
+      - name: Stevie Wonder
+        songs:
+          - title: Part-Time Lover
+            youtube_link: https://www.youtube.com/watch?v=MpDM6ygsb20
+      - name: A-HA
+        songs:
+          - title: Take On Me
+            youtube_link: https://www.youtube.com/watch?v=djV11Xbc914
+      - name: Joan Baez
+        songs:
+          - title: Blowin' in the Wind
+            youtube_link: https://www.youtube.com/watch?v=jRefH48gi1g
+      - name: Wham!
+        songs:
+          - title: Wake Me Up Before You Go-Go
+            youtube_link: https://www.youtube.com/watch?v=pIgZ7gMze7A
+      - name: Cutting Crew
+        songs:
+          - title: (I Just) Died In Your Arms
+            youtube_link: https://www.youtube.com/watch?v=6dOwHzCHfgA
+      - name: Leka
+        songs:
+          - title: Na Na Hey Hey Kiss Him Goodbye
+            youtube_link: https://www.youtube.com/watch?v=TV6WWT3zCEc
+
+
+
+
+
+#################################################################################
+#################################################################################
+####                              POP  (> 2000)                              ####
+#################################################################################
+#################################################################################
+  - genre: Pop (post 2000)
+    artists:
       - name: Dido
         songs:
           - title: Thank You
             youtube_link: https://www.youtube.com/watch?v=1TO48Cnl66w
           - title: Life for Rent
             youtube_link: https://www.youtube.com/watch?v=OFtNChII78k
-      - name: Cutting Crew
+      - name: Rag'n'Bone Man
         songs:
-          - title: (I Just) Died In Your Arms
-            youtube_link: https://www.youtube.com/watch?v=6dOwHzCHfgA
-      - name: Jefferson Airplane
+          - title: Human
+            youtube_link: https://www.youtube.com/watch?v=L3wKzyIN1yk
+      - name: Dua Lipa
         songs:
-          - title: Somebody to Love
-            youtube_link: https://www.youtube.com/watch?v=SrGSt5eDt9o
+          - title: Fever (Feat. Angèle)
+            youtube_link: https://www.youtube.com/watch?v=vs61OHs2g-w
+      - name: AURORA
+        songs:
+          - title: Murder Song (5, 4, 3, 2, 1)
+            youtube_link: https://www.youtube.com/watch?v=jTwdGRHl5Mw
+          - title: The Seed
+            youtube_link: https://www.youtube.com/watch?v=_Mc_OM5oNA8
+      - name: Adele
+        songs:
+          - title: Rolling in the Deep
+            youtube_link: https://www.youtube.com/watch?v=rYEDA3JcQqw
+      - name: Sia
+        songs:
+          - title: Courage To Change
+            youtube_link: https://www.youtube.com/watch?v=mWQACEqf4QY
+      - name: John Legend
+        songs:
+          - title: All of Me
+            youtube_link: https://www.youtube.com/watch?v=450p7goxZqg
+      - name: Christina Perri
+        songs:
+          - title: Jar of Hearts
+            youtube_link: https://www.youtube.com/watch?v=8v_4O44sfjM
+          - title: Human
+            youtube_link: https://www.youtube.com/watch?v=r5yaoMjaAmE
+      - name: Lady Gaga
+        songs:
+          - title: Bad Romance
+            youtube_link: https://www.youtube.com/watch?v=qrO4YZeyl0I
+      - name: Everybody Loves An Outlaw
+        songs:
+          - title: I See Red
+            youtube_link: https://www.youtube.com/watch?v=rRFsZ1bifm0
+      - name: Katy Perry
+        songs:
+          - title: Firework
+            youtube_link: https://www.youtube.com/watch?v=QGJuMBdaqIw
+      - name: Shakira
+        songs:
+          - title: Waka Waka (This Time for Africa)
+            youtube_link: https://www.youtube.com/watch?v=pRpeEdMmmQ0
+      - name: Britney Spears
+        songs:
+          - title: Criminal
+            youtube_link: https://www.youtube.com/watch?v=s6b33PTbGxk
+      - name: Jennifer Lopez
+        songs:
+          - title: On The Floor ft. Pitbull
+            youtube_link: https://www.youtube.com/watch?v=t4H_Zoh7G5A
 
+
+
+
+
+#################################################################################
+#################################################################################
+####                                  SUMMER                                 ####
+#################################################################################
+#################################################################################
+  - genre: Summer
+    artists:
+      - name: Las Ketchup
+        songs:
+          - title: Asereje
+            youtube_link: https://www.youtube.com/watch?v=V0PisGe66mY
+      - name: Papi Sánchez
+        songs:
+          - title: Enamorame
+            youtube_link: https://www.youtube.com/watch?v=bdqHeAAjKJ8
+# + autres plus tard (luna, despacito, ...)  // TODO
 
 
 
@@ -432,6 +480,10 @@ musics:
         songs:
           - title: I See Fire (Ed Sheeran)
             youtube_link: https://www.youtube.com/watch?v=yymS1Pb7JfM
+      - name: Lindsey Stirling
+        songs:
+          - title: Shatter Me (Feat. Lzzy Hale)
+            youtube_link: https://www.youtube.com/watch?v=49tpIMDy9BE
       - name: Mioune
         songs:
           - title: Fear Not This Night - Guild Wars 2
@@ -444,10 +496,10 @@ musics:
         songs:
           - title: Naranca (Elvis Stanic)
             youtube_link: https://www.youtube.com/watch?v=XZ5GDzdmKnM
-      - name: Malinda
+      - name: Cami-Cat
         songs:
-          - title: Edge of Night - Pippin's Song
-            youtube_link: https://www.youtube.com/watch?v=MGmPwhWA7tM
+          - title: Running Up That Hill (Cover of Kate Bush)
+            youtube_link: https://www.youtube.com/watch?v=dRXmBziicZw
       - name: VoicePlay
         songs:
           - title: Hoist the Colours
@@ -456,6 +508,18 @@ musics:
         songs:
           - title: Hellfire
             youtube_link: https://www.youtube.com/watch?v=ADTA2rU-l-8
+      - name: Jonathan Young
+        songs:
+          - title: HELLFIRE
+            youtube_link: https://www.youtube.com/watch?v=di1XUB0YIzw
+      - name: Natalia Sarsgård
+        songs:
+          - title: Sleeping sun (cover of Nightwish 
+            youtube_link: https://www.youtube.com/watch?v=zfzIDdHql1s
+      - name: Malinda
+        songs:
+          - title: Edge of Night - Pippin's Song
+            youtube_link: https://www.youtube.com/watch?v=MGmPwhWA7tM
       - name: The Yogscast
         songs:
           - title: Diggy Diggy Hole
@@ -468,10 +532,6 @@ musics:
         songs:
           - title: LA RENTRÉE...
             youtube_link: https://www.youtube.com/watch?v=EwzVdKvs5CI
-      - name: Lindsey Stirling
-        songs:
-          - title: Shatter Me (Feat. Lzzy Hale)
-            youtube_link: https://www.youtube.com/watch?v=49tpIMDy9BE
       - name: ZeratoR
         songs:
           - title: ANONYME
@@ -481,6 +541,15 @@ musics:
           - title: KARAOKÉ - ZEVENT 2022
             youtube_link: https://www.youtube.com/watch?v=9d-0aReGyQ0
 
+
+
+
+
+#################################################################################
+#################################################################################
+####                                 JV/FILM                                 ####
+#################################################################################
+#################################################################################
   - genre: Jeux Vidéos / Films
     artists:
       - name: Dishonored
@@ -521,6 +590,7 @@ musics:
         songs:
           - title: Mon Ancètre Gurdil
             youtube_link: https://www.youtube.com/watch?v=3TAQViG36QA
+# minecraft, AC, .. // TODO
 
 
 
@@ -537,7 +607,17 @@ musics:
         songs:
           - title: Show Yourself
             youtube_link: https://www.youtube.com/watch?v=nrZxwPwmgrw
+# ne pas oublié les chanson come "home", zootopie, ou raph  // TODO
 
+
+
+
+
+#################################################################################
+#################################################################################
+####                                  MUSIQUE                                ####
+#################################################################################
+#################################################################################
   - genre: Musique
     artists:
       - name: Epic Music World
@@ -560,23 +640,32 @@ musics:
         songs:
           - title: Pirates Of The Caribbean
             youtube_link: https://www.youtube.com/watch?v=C0_sN4QwgSA
-      - name: 2Cellos
-        songs:
-          - title: Thunderstruck
-            youtube_link: https://www.youtube.com/watch?v=uT3SBzmDxGk
       - name: Clamavi De Profundis
         songs:
           - title: Song of Durin
             youtube_link: https://www.youtube.com/watch?v=uxfoa23skHg
-      - name: Ennio Morricone
-        songs:
-          - title: Chi Mai
-            youtube_link: https://www.youtube.com/watch?v=v-81ftrB6SU
       - name: André Rieu
         songs:
           - title: The Lonely Shepherd
             youtube_link: https://www.youtube.com/watch?v=orL-w2QBiN8
+      - name: Ennio Morricone
+        songs:
+          - title: Chi Mai
+            youtube_link: https://www.youtube.com/watch?v=v-81ftrB6SU
+      - name: 2Cellos
+        songs:
+          - title: Thunderstruck
+            youtube_link: https://www.youtube.com/watch?v=uT3SBzmDxGk
 
+
+
+
+
+#################################################################################
+#################################################################################
+####                                  ITALIEN                                ####
+#################################################################################
+#################################################################################
   - genre: Italien
     artists:
       - name: Luciano Pavarotti
@@ -587,14 +676,14 @@ musics:
         songs:
           - title: Vivo per lei
             youtube_link: https://www.youtube.com/watch?v=CNHL66K8S2I
-      - name: Miami
-        songs:
-          - title: Tu vivi nell'aria
-            youtube_link: https://www.youtube.com/watch?v=bCSqkN9N3tg
       - name: Laura Pausini
         songs:
           - title: La Solitudine
             youtube_link: https://www.youtube.com/watch?v=FpOEN93LX-E
+      - name: Miami
+        songs:
+          - title: Tu vivi nell'aria
+            youtube_link: https://www.youtube.com/watch?v=bCSqkN9N3tg
       - name: Autres
         songs:
           - title: Bella Ciao
@@ -635,6 +724,10 @@ musics:
         songs:
           - title: Le Roi Louis
             youtube_link: https://www.youtube.com/watch?v=sLr1GZ5oI2Y
+      - name: ERA
+        songs:
+          - title: Ameno
+            youtube_link: https://www.youtube.com/watch?v=6xUnSVTh8fI
       - name: Autres
         songs:
           - title: Oi u luzi chervona kalyna
@@ -657,8 +750,8 @@ musics:
             youtube_link: https://www.youtube.com/watch?v=37StRy0LEbI
       - name: Bigflo & Oli
         songs:
-          - title: Bienvenue chez moi
-            youtube_link: https://www.youtube.com/watch?v=PTJLmBfG8yc
+          - title: Alors alors
+            youtube_link: https://www.youtube.com/watch?v=UMlLcjpzzjc
       - name: Eminem
         songs:
           - title: Lose Yourself
