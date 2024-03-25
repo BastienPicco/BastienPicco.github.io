@@ -10,18 +10,60 @@ musics:
         songs:
           - title: Bohemian Rhapsody
             youtube_link: https://www.youtube.com/watch?v=fJ9rUzIMcZQ
+          - title: We Will Rock You
+            youtube_link: https://www.youtube.com/watch?v=-tJYN-eG1zk
+          - title: Don't Stop Me Now
+            youtube_link: https://www.youtube.com/watch?v=HgzGwKwLmgM
+          - title: I Want To Break Free
+            youtube_link: https://www.youtube.com/watch?v=f4Mc-NYPHaQ
+          - title: Another One Bites the Dust
+            youtube_link: https://www.youtube.com/watch?v=rY0WxgSXdEE
+          - title: Radio Ga Ga
+            youtube_link: https://www.youtube.com/watch?v=azdwsXLmrHE
+          - title: Hammer To Fall
+            youtube_link: https://www.youtube.com/watch?v=JU5LMG3WFBw
+          - title: The Show Must Go On
+            youtube_link: https://www.youtube.com/watch?v=t99KH0TR-J4
+          - title: Under Pressure
+            youtube_link: https://www.youtube.com/watch?v=a01QQZyl-_I
+          - title: Who Wants To Live Forever
+            youtube_link: https://www.youtube.com/watch?v=_Jtpf8N5IDE
+          - title: I Want It All
+            youtube_link: https://www.youtube.com/watch?v=hFDcoX7s6rE
       - name: Scorpions
         songs:
           - title: Send Me An Angel
             youtube_link: https://www.youtube.com/watch?v=1UUYjd2rjsE
+          - title: Wind Of Change
+            youtube_link: https://www.youtube.com/watch?v=n4RjJKxsamQ
+          - title: Still Loving You
+            youtube_link: https://www.youtube.com/watch?v=7pOr3dBFAeY
+          - title: Rock You Like A Hurricane
+            youtube_link: https://www.youtube.com/watch?v=6yP1tcy9a10
+          - title: Blackout
+            youtube_link: https://www.youtube.com/watch?v=vCqK2xAbWcU
+          - title: Rhythm Of Love
+            youtube_link: https://www.youtube.com/watch?v=vFAf_29KYTs
+          - title: The Zoo
+            youtube_link: https://www.youtube.com/watch?v=ky78cAmVfx4
       - name: Toto
         songs:
           - title: Africa
             youtube_link: https://www.youtube.com/watch?v=FTQbiNvZqaY
+          - title: Hold The Line
+            youtube_link: https://www.youtube.com/watch?v=htgr3pvBr-I
+          - title: Rosanna
+            youtube_link: https://www.youtube.com/watch?v=qmOLtTGvsbM
       - name: AC/DC
         songs:
           - title: Highway to Hell
             youtube_link: https://www.youtube.com/watch?v=gEPmA3USJdI
+          - title: Back In Black
+            youtube_link: https://www.youtube.com/watch?v=pAgnJDJN4VA
+          - title: Thunderstruck
+            youtube_link: https://www.youtube.com/watch?v=v2AC41dglnM
+          - title: Hells Bells
+            youtube_link: https://www.youtube.com/watch?v=etAIpkdhU9Q
       - name: R.E.M
         songs:
           - title: Losing My Religion
@@ -30,6 +72,27 @@ musics:
         songs:
           - title: Gimme! Gimme! Gimme!
             youtube_link: https://www.youtube.com/watch?v=XEjLoHdbVeE
+        songs:
+          - title: Dancing Queen
+            youtube_link: https://www.youtube.com/watch?v=xFrGuyw1V8s
+        songs:
+          - title: Mamma Mia
+            youtube_link: https://www.youtube.com/watch?v=unfzfe8f9NI
+        songs:
+          - title: Waterloo
+            youtube_link: https://www.youtube.com/watch?v=Sj_9CiNkkn4
+        songs:
+          - title: Voulez-Vous
+            youtube_link: https://www.youtube.com/watch?v=za05HBtGsgU
+        songs:
+          - title: Money, Money, Money
+            youtube_link: https://www.youtube.com/watch?v=ETxmCCsMoD0
+      - name: Elton John
+        songs:
+          - title: I'm Still Standing
+            youtube_link: https://www.youtube.com/watch?v=ZHwVBirqD2s
+          - title: Rocket Man
+            youtube_link: https://www.youtube.com/watch?v=DtVBCG6ThDk
       - name: Eagles
         songs:
           - title: Hotel California
@@ -38,6 +101,10 @@ musics:
         songs:
           - title: The Final Countdown
             youtube_link: https://www.youtube.com/watch?v=9jK-NcRmVcw
+      - name: Bon Jovi
+        songs:
+          - title: You Give Love A Bad Name
+            youtube_link: https://www.youtube.com/watch?v=KrZHPOeOxQQ
       - name: Pink Floyd
         songs:
           - title: Another Brick in The Wall
@@ -46,12 +113,12 @@ musics:
         songs:
           - title: Hey Jude
             youtube_link: https://www.youtube.com/watch?v=A_MjCqQoLLA
-      - name: Elton John
-        songs:
-          - title: I'm Still Standing
-            youtube_link: https://www.youtube.com/watch?v=ZHwVBirqD2s
-          - title: Rocket Man
-            youtube_link: https://www.youtube.com/watch?v=DtVBCG6ThDk
+          - title: Let It Be
+            youtube_link: https://www.youtube.com/watch?v=QDYfEBY9NM4
+          - title: Yesterday
+            youtube_link: https://www.youtube.com/watch?v=NrgmdOz227I
+          - title: Imagine (John Lennon)
+            youtube_link: https://www.youtube.com/watch?v=VOgFZfRVaww
 
 
 
@@ -68,6 +135,30 @@ musics:
         songs:
           - title: Numb
             youtube_link: https://www.youtube.com/watch?v=kXYiU_JCYtU
+        songs:
+          - title: In The End
+            youtube_link: https://www.youtube.com/watch?v=eVTXPUF4Oz4
+        songs:
+          - title: New Divide
+            youtube_link: https://www.youtube.com/watch?v=ysSxxIqKNN0
+        songs:
+          - title: Crawling (slow version)
+            youtube_link: https://www.youtube.com/watch?v=sjN-NGsRg9g
+        songs:
+          - title: Breaking the Habit
+            youtube_link: https://www.youtube.com/watch?v=v2H4l9RpkwM
+        songs:
+          - title: What I've Done
+            youtube_link: https://www.youtube.com/watch?v=8sgycukafqQ
+        songs:
+          - title: Castle of Glass
+            youtube_link: https://www.youtube.com/watch?v=ScNNfyq3d_w
+        songs:
+          - title: Burn It Down
+            youtube_link: https://www.youtube.com/watch?v=dxytyRy-O1k
+        songs:
+          - title: Lost
+            youtube_link: https://www.youtube.com/watch?v=7NK_JOkuSVY
       - name: Imagine Dragons
         songs:
           - title: Radioactive
@@ -100,10 +191,6 @@ musics:
         songs:
           - title: How You Remind Me
             youtube_link: https://www.youtube.com/watch?v=hhSLkkLl750
-      - name: WIND ROSE
-        songs:
-          - title: Army Of Stone
-            youtube_link: https://www.youtube.com/watch?v=SFxKm8zxCeE
 
 
 
@@ -160,6 +247,10 @@ musics:
         songs:
           - title: Jesus He Knows Me (Genesis)
             youtube_link: https://www.youtube.com/watch?v=GBiKayMXLk0
+      - name: Wind Rose
+        songs:
+          - title: Army Of Stone
+            youtube_link: https://www.youtube.com/watch?v=SFxKm8zxCeE
 
 
 
