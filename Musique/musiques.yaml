@@ -72,19 +72,14 @@ musics:
         songs:
           - title: Gimme! Gimme! Gimme!
             youtube_link: https://www.youtube.com/watch?v=XEjLoHdbVeE
-        songs:
           - title: Dancing Queen
             youtube_link: https://www.youtube.com/watch?v=xFrGuyw1V8s
-        songs:
           - title: Mamma Mia
             youtube_link: https://www.youtube.com/watch?v=unfzfe8f9NI
-        songs:
           - title: Waterloo
             youtube_link: https://www.youtube.com/watch?v=Sj_9CiNkkn4
-        songs:
           - title: Voulez-Vous
             youtube_link: https://www.youtube.com/watch?v=za05HBtGsgU
-        songs:
           - title: Money, Money, Money
             youtube_link: https://www.youtube.com/watch?v=ETxmCCsMoD0
       - name: Elton John
@@ -135,34 +130,46 @@ musics:
         songs:
           - title: Numb
             youtube_link: https://www.youtube.com/watch?v=kXYiU_JCYtU
-        songs:
           - title: In The End
             youtube_link: https://www.youtube.com/watch?v=eVTXPUF4Oz4
-        songs:
           - title: New Divide
             youtube_link: https://www.youtube.com/watch?v=ysSxxIqKNN0
-        songs:
           - title: Crawling (slow version)
             youtube_link: https://www.youtube.com/watch?v=sjN-NGsRg9g
-        songs:
           - title: Breaking the Habit
             youtube_link: https://www.youtube.com/watch?v=v2H4l9RpkwM
-        songs:
           - title: What I've Done
             youtube_link: https://www.youtube.com/watch?v=8sgycukafqQ
-        songs:
           - title: Castle of Glass
             youtube_link: https://www.youtube.com/watch?v=ScNNfyq3d_w
-        songs:
           - title: Burn It Down
             youtube_link: https://www.youtube.com/watch?v=dxytyRy-O1k
-        songs:
           - title: Lost
             youtube_link: https://www.youtube.com/watch?v=7NK_JOkuSVY
       - name: Imagine Dragons
         songs:
           - title: Radioactive
             youtube_link: https://www.youtube.com/watch?v=ktvTqknDobU
+          - title: Believer
+            youtube_link: https://www.youtube.com/watch?v=7wtfhZwyrcc
+          - title: Whatever It Takes
+            youtube_link: https://www.youtube.com/watch?v=gOsM-DYAEhY
+          - title: Demons
+            youtube_link: https://www.youtube.com/watch?v=mWRsgZuwf_8
+          - title: Bad Liar
+            youtube_link: https://www.youtube.com/watch?v=I-QfPUz1es8
+          - title: Enemy
+            youtube_link: https://www.youtube.com/watch?v=2apg61oYwPo
+          - title: Natural
+            youtube_link: https://www.youtube.com/watch?v=0I647GU3Jsc
+          - title: Wrecked
+            youtube_link: https://www.youtube.com/watch?v=Y2NkuFIlLEo
+          - title: Bones
+            youtube_link: https://www.youtube.com/watch?v=TO-_3tck2tg
+          - title: Thunder
+            youtube_link: https://www.youtube.com/watch?v=fKopy74weus
+          - title: Warriors
+            youtube_link: https://www.youtube.com/watch?v=fmI_Ndrxy14
       - name: Phil Collins
         songs:
           - title: In The Air Tonight
@@ -175,6 +182,8 @@ musics:
         songs:
           - title: Zombie
             youtube_link: https://www.youtube.com/watch?v=6Ejga4kJUts
+          - title: When You're Gone
+            youtube_link: https://www.youtube.com/watch?v=RUmdWdEgHgk
       - name: Survivor
         songs:
           - title:  Eye Of The Tiger
@@ -187,6 +196,12 @@ musics:
         songs:
           - title: Total Eclipse of the Heart
             youtube_link: https://www.youtube.com/watch?v=lcOxhH8N3Bo
+          - title: If You Were A Woman (And I Was A Man)
+            youtube_link: https://www.youtube.com/watch?v=rJOo67DtZAY
+          - title: Holding Out For A Hero
+            youtube_link: https://www.youtube.com/watch?v=bWcASV2sey0
+          - title: It's A Heartache
+            youtube_link: https://www.youtube.com/watch?v=bEOl38y8Nj8
       - name: Nickelback
         songs:
           - title: How You Remind Me
@@ -207,18 +222,116 @@ musics:
         songs:
           - title: Shoemaker
             youtube_link: https://www.youtube.com/watch?v=Rjp_DfvJimg
+          - title: The Islander
+            youtube_link: https://www.youtube.com/watch?v=ciLVx51IZjM
+          - title: Wish I Had An Angel
+            youtube_link: https://www.youtube.com/watch?v=wEERFBI9eCg
+          - title: The Phantom Of The Opera
+            youtube_link: https://www.youtube.com/watch?v=tL25rbnvM4o
+          - title: The Greatest Show on Earth
+            youtube_link: https://www.youtube.com/watch?v=qrMwxe2ya5E
+          - title: Sleeping Sun
+            youtube_link: https://www.youtube.com/watch?v=UGfKMV5AbMI
       - name: Sabaton
         songs:
           - title: Bismarck
             youtube_link: https://www.youtube.com/watch?v=oVWEb-At8yc
+          - title: En Livstid I Krig
+            youtube_link: https://www.youtube.com/watch?v=WBs3G1PvyfM
+          - title: The Last Stand
+            youtube_link: https://www.youtube.com/watch?v=i9BupglHdtM
+          - title: Winged Hussars
+            youtube_link: https://www.youtube.com/watch?v=rcYhYO02f98
+          - title: Primo Victoria
+            youtube_link: https://www.youtube.com/watch?v=KVxTJ9Xb9Ec
+          - title: Uprising
+            youtube_link: https://www.youtube.com/watch?v=hxCoyz8RbTY
+          - title: Fields of Verdun
+            youtube_link: https://www.youtube.com/watch?v=yJDBmP9Mexk
+          - title: Great War
+            youtube_link: https://www.youtube.com/watch?v=HkbG39-T4H0
+          - title: The Red Baron
+            youtube_link: https://www.youtube.com/watch?v=1snEYPg8TXs
+          - title: The Attack of the Dead Men
+            youtube_link: https://www.youtube.com/watch?v=-AFdwoyNT24
+          - title: 82nd All the Way
+            youtube_link: https://www.youtube.com/watch?v=ZgfCUxFE7XA
+          - title: The Price Of A Mile
+            youtube_link: https://www.youtube.com/watch?v=LOrlRvBV59E
+          - title: Unbreakable
+            youtube_link: https://www.youtube.com/watch?v=R-_N7U-3Cc4
+          - title: The Art Of War
+            youtube_link: https://www.youtube.com/watch?v=AXO2nrHYJ5c
+          - title: Ghost Division
+            youtube_link: https://www.youtube.com/watch?v=ICfzQVh3lvs
+          - title: Resist And Bite
+            youtube_link: https://www.youtube.com/watch?v=loTjRIL7qWo
+          - title: To Hell And Back
+            youtube_link: https://www.youtube.com/watch?v=RhmHSAClG1c
+          - title: No Bullets Fly
+            youtube_link: https://www.youtube.com/watch?v=CsSTYhJtofs
+          - title: Night Witches
+            youtube_link: https://www.youtube.com/watch?v=jcemHIqmkYI
+          - title: Christmas Truce
+            youtube_link: https://www.youtube.com/watch?v=goXDAFtkJLw
+          - title: Lady Of The Dark
+            youtube_link: https://www.youtube.com/watch?v=rM9PuJxppdI
+          - title: The First Soldier
+            youtube_link: https://www.youtube.com/watch?v=IZjzEz7b3DA
+          - title: The Unkillable Soldier
+            youtube_link: https://www.youtube.com/watch?v=usrFCZpRwGo
+          - title: Dreadnought
+            youtube_link: https://www.youtube.com/watch?v=RJK0jhymE5A
+          - title: Father
+            youtube_link: https://www.youtube.com/watch?v=DxkeOkaVRLo
+          - title: The Final Solution
+            youtube_link: https://www.youtube.com/watch?v=_O3awC4mv4Q
+          - title: Defence Of Moscow
+            youtube_link: https://www.youtube.com/watch?v=9TjXanLjpTU
+          - title: Steel Commanders
+            youtube_link: https://www.youtube.com/watch?v=peTCePu1jMs
       - name: Iron Maiden
         songs:
           - title: The Writing On The Wall
             youtube_link: https://www.youtube.com/watch?v=FhBnW7bZHEE
       - name: Powerwolf
         songs:
+          - title: Sainted By The Storm
+            youtube_link: https://www.youtube.com/watch?v=1SIhedUuqjE
+          - title: My Will Be Done
+            youtube_link: https://www.youtube.com/watch?v=1H-gjv5UoNs
+          - title: Demons Are A Girl's Best Friend
+            youtube_link: https://www.youtube.com/watch?v=jhK2ev_O-pc
+          - title: Dancing With The Dead
+            youtube_link: https://www.youtube.com/watch?v=Xp_rlSmt2P0
           - title: Bête du Gévaudan
             youtube_link: https://www.youtube.com/watch?v=N6k8BBU8_Go
+          - title: Beast Of Gévaudan
+            youtube_link: https://www.youtube.com/watch?v=po-u-V6GiEk
+          - title: Killers With The Cross
+            youtube_link: https://www.youtube.com/watch?v=cXOAcuNhFS4
+          - title: Wolves Of War
+            youtube_link: https://www.youtube.com/watch?v=tx0XR580T8I
+          - title: Armata Strigoi
+            youtube_link: https://www.youtube.com/watch?v=3zx1ZtxUbGE
+          - title: Fire & Forgive
+            youtube_link: https://www.youtube.com/watch?v=Xmr6iscmd1g
+          - title: Venom Of Venus
+            youtube_link: https://www.youtube.com/watch?v=dLbcipFIQAU
+          - title: No Prayer At Midnight
+            youtube_link: https://www.youtube.com/watch?v=tmcz6sCFvN4
+          - title: Alive Or Undead
+            youtube_link: https://www.youtube.com/watch?v=TkpnClIKEvQ
+          - title: The Sacrament Of Sin
+            youtube_link: https://www.youtube.com/watch?v=VG-jFPTn54Y
+          - title: Incense & Iron
+            youtube_link: https://www.youtube.com/watch?v=uttlRqHpvNs
+          - title: Blessed & Possessed
+            youtube_link: https://www.youtube.com/watch?v=GxWiRU1wrPo
+          - title: Faster Than The Flame
+            youtube_link: https://www.youtube.com/watch?v=pzxkCADK_5Q
+          - title: Army Of The Night
+            youtube_link: https://www.youtube.com/watch?v=1zN7J64IeBo
       - name: Rammstein
         songs:
           - title: Du Hast
@@ -229,12 +342,22 @@ musics:
             youtube_link: https://www.youtube.com/watch?v=u9Dg-g7t2l4
       - name: Amaranthe
         songs:
-          - title: FEARLESS
+          - title: Fearless
             youtube_link: https://www.youtube.com/watch?v=JzPUBTR4L_4
+          - title: 82nd All The Way (cover of Sabaton)
+            youtube_link: https://www.youtube.com/watch?v=XhepwtKR5lg
+          - title: Archangel
+            youtube_link: https://www.youtube.com/watch?v=5fExpycwIrU
+          - title: The Nexus
+            youtube_link: https://www.youtube.com/watch?v=SxOybZcRXhI
       - name: Epica
         songs:
           - title: Unchain Utopia
             youtube_link: https://www.youtube.com/watch?v=c8XdrOhEZl0
+          - title: Sacred & Wild (Cover of Powerwolf)
+            youtube_link: https://www.youtube.com/watch?v=OmYnNxX5ZkU
+          - title: Unleashed
+            youtube_link: https://www.youtube.com/watch?v=iiB5G4NIPdQ
       - name: DragonForce
         songs:
           - title: Through the Fire and Flames
@@ -267,14 +390,38 @@ musics:
         songs:
           - title: Tous les cris les S.O.S
             youtube_link: https://www.youtube.com/watch?v=urWV2OjAmUQ
+          - title: S.O.S. d'un terrien en détresse
+            youtube_link: https://www.youtube.com/watch?v=ilrYhXIf5yg
+          - title: L'Aziza
+            youtube_link: https://www.youtube.com/watch?v=lHjJlSq3BhA
+          - title: Mon fils ma bataille
+            youtube_link: https://www.youtube.com/watch?v=U6HI__YOhe4
+          - title: Sauver l'amour
+            youtube_link: https://www.youtube.com/watch?v=QzUriPFY6ho
+          - title: Aimer est plus fort que d'être aimé
+            youtube_link: https://www.youtube.com/watch?v=6bTAgC-1Brs
       - name: France Gall
         songs:
           - title: Ella, elle l'a
             youtube_link: https://www.youtube.com/watch?v=lgHGU8gqz9U
+          - title: Résiste
+            youtube_link: https://www.youtube.com/watch?v=cnX45mdpyC0
+          - title: Poupée de cire, poupée de son
+            youtube_link: https://www.youtube.com/watch?v=7cv9NIzGmSI
       - name: Johnny Hallyday
         songs:
           - title: Allumer Le Feu
             youtube_link: https://www.youtube.com/watch?v=s3O1Xro7oAI
+          - title: Requiem pour un fou (Feat. Lara Fabian)
+            youtube_link: https://www.youtube.com/watch?v=PHwIF6jmOCY
+          - title: Le pénitencier
+            youtube_link: https://www.youtube.com/watch?v=6YsjUfws5Pw
+          - title: Je te promets
+            youtube_link: https://www.youtube.com/watch?v=-TkrMyXYbik
+          - title: Marie
+            youtube_link: https://www.youtube.com/watch?v=2aOLW_R9-E4
+          - title: J'en parlerai au diable
+            youtube_link: https://www.youtube.com/watch?v=CobeBZNlR8E
       - name: Julie Pietri
         songs:
           - title: Eve lève-toi
@@ -539,27 +686,6 @@ musics:
 
 
 
-
-#################################################################################
-#################################################################################
-####                                  SUMMER                                 ####
-#################################################################################
-#################################################################################
-  - genre: Summer
-    artists:
-      - name: Las Ketchup
-        songs:
-          - title: Asereje
-            youtube_link: https://www.youtube.com/watch?v=V0PisGe66mY
-      - name: Papi Sánchez
-        songs:
-          - title: Enamorame
-            youtube_link: https://www.youtube.com/watch?v=bdqHeAAjKJ8
-# + autres plus tard (luna, despacito, ...)  // TODO
-
-
-
-
 #################################################################################
 #################################################################################
 ####                                    YT                                   ####
@@ -709,7 +835,7 @@ musics:
 ####                                  MUSIQUE                                ####
 #################################################################################
 #################################################################################
-  - genre: Musique
+  - genre: Musique Orchestrale
     artists:
       - name: Epic Music World
         songs:
@@ -823,6 +949,27 @@ musics:
         songs:
           - title: Oi u luzi chervona kalyna
             youtube_link: https://www.youtube.com/watch?v=LIUoFuSuvTM
+
+
+
+
+
+#################################################################################
+#################################################################################
+####                                  SUMMER                                 ####
+#################################################################################
+#################################################################################
+  - genre: Summer
+    artists:
+      - name: Las Ketchup
+        songs:
+          - title: Asereje
+            youtube_link: https://www.youtube.com/watch?v=V0PisGe66mY
+      - name: Papi Sánchez
+        songs:
+          - title: Enamorame
+            youtube_link: https://www.youtube.com/watch?v=bdqHeAAjKJ8
+# + autres plus tard (luna, despacito, ...)  // TODO
 
 
 
