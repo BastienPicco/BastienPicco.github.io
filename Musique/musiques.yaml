@@ -430,14 +430,42 @@ musics:
         songs:
           - title: L'encre de tes yeux
             youtube_link: https://www.youtube.com/watch?v=aKkvU_NnPhg
+          - title: Je l'aime à mourir
+            youtube_link: https://www.youtube.com/watch?v=WRHZoMq3TXc
+          - title: Petite Marie
+            youtube_link: https://www.youtube.com/watch?v=Wg6m15-djqA
+          - title: Encore et encore
+            youtube_link: https://www.youtube.com/watch?v=F9WckVtDNIo
+          - title: La cabane du pêcheur
+            youtube_link: https://www.youtube.com/watch?v=6cRrepWv1rg
+          - title: Je t'aimais, je t'aime, je t'aimerai
+            youtube_link: https://www.youtube.com/watch?v=EVeZzR677DU
+          - title: Les murs de poussière
+            youtube_link: https://www.youtube.com/watch?v=Q0q3E8QeihE
       - name: Jean-Jacques Goldman
         songs:
           - title: Envole-moi
             youtube_link: https://www.youtube.com/watch?v=oltptNDHocw
+          - title: Je te donne
+            youtube_link: https://www.youtube.com/watch?v=493R05ifNsI
+          - title: Je marche seul
+            youtube_link: https://www.youtube.com/watch?v=5AS0wPLnAhY
+          - title: Il suffira d'un signe
+            youtube_link: https://www.youtube.com/watch?v=Vav-2sgJ4MI
+          - title: Quand la musique est bonne
+            youtube_link: https://www.youtube.com/watch?v=-boDeijWuOY
+          - title: Au bout de mes rêves
+            youtube_link: https://www.youtube.com/watch?v=o3hX0DU1QoI
       - name: Charles Aznavour
         songs:
           - title: Emmenez-moi
             youtube_link: https://www.youtube.com/watch?v=0OrKMaeQUx0
+          - title: Hier encore
+            youtube_link: https://www.youtube.com/watch?v=dbxyKR1P8vA
+          - title: Et pourtant
+            youtube_link: https://www.youtube.com/watch?v=MT_f8p-ZuqU
+          - title: La bohème
+            youtube_link: https://www.youtube.com/watch?v=fVfnEyLOkrM
       - name: Khaled
         songs:
           - title: Aicha
@@ -446,10 +474,24 @@ musics:
         songs:
           - title: Amsterdam
             youtube_link: https://www.youtube.com/watch?v=V3BSj1cHX-M
+          - title: Ne me quitte pas
+            youtube_link: https://www.youtube.com/watch?v=n0ehZeWGXW0
+          - title: Quand on n'a que l'Amour
+            youtube_link: https://www.youtube.com/watch?v=Vl3k5cwQ94Y
       - name: Edith Piaf
         songs:
           - title: La vie en rose
             youtube_link: https://www.youtube.com/watch?v=-0KvBnIvTFs
+          - title: Non, je ne regrette rien
+            youtube_link: https://www.youtube.com/watch?v=4r454dad7tc
+          - title: Hymne à l'amour
+            youtube_link: https://www.youtube.com/watch?v=sgBldNsK-xw
+          - title: La foule
+            youtube_link: https://www.youtube.com/watch?v=Fgn8gZHJZzA
+          - title: Milord
+            youtube_link: https://www.youtube.com/watch?v=nZcdI1u_9o8
+          - title: Padam, padam
+            youtube_link: https://www.youtube.com/watch?v=xXqLj7X1WDU
       - name: Indochine
         songs:
           - title: L'aventurier
@@ -486,6 +528,8 @@ musics:
         songs:
           - title: Je suis Malade
             youtube_link: https://www.youtube.com/watch?v=aIbsrEyWddk
+          - title: Je t'aime
+            youtube_link: https://www.youtube.com/watch?v=bVvkcaY5khc
       - name: Barbara Pravi
         songs:
           - title: Voilà
@@ -506,6 +550,8 @@ musics:
         songs:
           - title: Dernière Danse
             youtube_link: https://www.youtube.com/watch?v=K5KAc5CoCuk
+          - title: Tourner Dans Le Vide
+            youtube_link: https://www.youtube.com/watch?v=F3wpq-i150c
       - name: Stromae
         songs:
           - title: Papaoutai
@@ -544,6 +590,16 @@ musics:
             youtube_link: https://www.youtube.com/watch?v=Zi_XLOBDo_Y
           - title: Beat It
             youtube_link: https://www.youtube.com/watch?v=oRdxUFDoQe0
+          - title: Smooth Criminal
+            youtube_link: https://www.youtube.com/watch?v=RCmuTH6T7fk
+          - title: They Don't Care About Us
+            youtube_link: https://www.youtube.com/watch?v=t1pqi8vjTLY
+          - title: Bad
+            youtube_link: https://www.youtube.com/watch?v=-DlMoJ2V6uk
+          - title: Thriller
+            youtube_link: https://www.youtube.com/watch?v=4V90AmXnguw
+          - title: Earth Song
+            youtube_link: https://www.youtube.com/watch?v=XAi3VTSdTxU
       - name: Rick Astley
         songs:
           - title: Never Gonna Give You Up
@@ -564,10 +620,10 @@ musics:
         songs:
           - title: Maniac
             youtube_link: https://www.youtube.com/watch?v=6GCNUeTFSbA
-      - name: Tears For Fears
+      - name: Gary Jules
         songs:
           - title: Mad World
-            youtube_link: https://www.youtube.com/watch?v=u1ZvPSpLxCg
+            youtube_link: https://www.youtube.com/watch?v=etSbOs3aUqI
       - name: Eurythmics
         songs:
           - title: Sweet Dreams (Are Made Of This)
@@ -580,6 +636,12 @@ musics:
         songs:
           - title: I'm Alive
             youtube_link: https://www.youtube.com/watch?v=NJsa6-y4sDs
+          - title: My Heart Will Go On
+            youtube_link: https://www.youtube.com/watch?v=9bFHsd3o1w0
+          - title: Pour que tu m'aimes encore
+            youtube_link: https://www.youtube.com/watch?v=AzaTyxMduH4
+          - title: Parler à mon père
+            youtube_link: https://www.youtube.com/watch?v=_LTsjwiTN7w
       - name: John Denver
         songs:
           - title: Take Me Home, Country Roads
@@ -626,14 +688,16 @@ musics:
             youtube_link: https://www.youtube.com/watch?v=1TO48Cnl66w
           - title: Life for Rent
             youtube_link: https://www.youtube.com/watch?v=OFtNChII78k
-      - name: Rag'n'Bone Man
-        songs:
-          - title: Human
-            youtube_link: https://www.youtube.com/watch?v=L3wKzyIN1yk
       - name: Dua Lipa
         songs:
           - title: Fever (Feat. Angèle)
             youtube_link: https://www.youtube.com/watch?v=vs61OHs2g-w
+      - name: Christina Perri
+        songs:
+          - title: Jar of Hearts
+            youtube_link: https://www.youtube.com/watch?v=8v_4O44sfjM
+          - title: Human
+            youtube_link: https://www.youtube.com/watch?v=r5yaoMjaAmE
       - name: AURORA
         songs:
           - title: Murder Song (5, 4, 3, 2, 1)
@@ -648,16 +712,14 @@ musics:
         songs:
           - title: Courage To Change
             youtube_link: https://www.youtube.com/watch?v=mWQACEqf4QY
+      - name: Rag'n'Bone Man
+        songs:
+          - title: Human
+            youtube_link: https://www.youtube.com/watch?v=L3wKzyIN1yk
       - name: John Legend
         songs:
           - title: All of Me
             youtube_link: https://www.youtube.com/watch?v=450p7goxZqg
-      - name: Christina Perri
-        songs:
-          - title: Jar of Hearts
-            youtube_link: https://www.youtube.com/watch?v=8v_4O44sfjM
-          - title: Human
-            youtube_link: https://www.youtube.com/watch?v=r5yaoMjaAmE
       - name: Lady Gaga
         songs:
           - title: Bad Romance
