@@ -708,10 +708,22 @@ musics:
         songs:
           - title: Rolling in the Deep
             youtube_link: https://www.youtube.com/watch?v=rYEDA3JcQqw
+          - title: Someone Like You
+            youtube_link: https://www.youtube.com/watch?v=hLQl3WQQoQ0
+          - title: Skyfall
+            youtube_link: https://www.youtube.com/watch?v=DeumyOzKqgI
+          - title: Set Fire to the Rain
+            youtube_link: https://www.youtube.com/watch?v=a2giXO6eyuI
+          - title: Hello
+            youtube_link: https://www.youtube.com/watch?v=be12BC5pQLE
       - name: Sia
         songs:
           - title: Courage To Change
             youtube_link: https://www.youtube.com/watch?v=mWQACEqf4QY
+          - title: Unstoppable
+            youtube_link: https://www.youtube.com/watch?v=YaEG2aWJnZ8
+          - title: Chandelier
+            youtube_link: https://www.youtube.com/watch?v=2vjPBrBU-TM
       - name: Rag'n'Bone Man
         songs:
           - title: Human
@@ -724,26 +736,38 @@ musics:
         songs:
           - title: Bad Romance
             youtube_link: https://www.youtube.com/watch?v=qrO4YZeyl0I
+          - title: Poker Face
+            youtube_link: https://www.youtube.com/watch?v=bESGLojNYSo
       - name: Everybody Loves An Outlaw
         songs:
           - title: I See Red
             youtube_link: https://www.youtube.com/watch?v=rRFsZ1bifm0
-      - name: Katy Perry
-        songs:
-          - title: Firework
-            youtube_link: https://www.youtube.com/watch?v=QGJuMBdaqIw
       - name: Shakira
         songs:
           - title: Waka Waka (This Time for Africa)
             youtube_link: https://www.youtube.com/watch?v=pRpeEdMmmQ0
+          - title: Je L'aime A Mourir
+            youtube_link: https://www.youtube.com/watch?v=92tkZQB-Uj4
+          - title: Me Enamoré
+            youtube_link: https://www.youtube.com/watch?v=sPTn0QEhxds
+      - name: Katy Perry
+        songs:
+          - title: Firework
+            youtube_link: https://www.youtube.com/watch?v=QGJuMBdaqIw
+          - title: Wide Awake
+            youtube_link: https://www.youtube.com/watch?v=PtjSWdpY5pU
       - name: Britney Spears
         songs:
           - title: Criminal
             youtube_link: https://www.youtube.com/watch?v=s6b33PTbGxk
+          - title: Baby One More Time 
+            youtube_link: https://www.youtube.com/watch?v=C-u5WLJ9Yk4
       - name: Jennifer Lopez
         songs:
           - title: On The Floor ft. Pitbull
             youtube_link: https://www.youtube.com/watch?v=t4H_Zoh7G5A
+          - title: Papi
+            youtube_link: https://www.youtube.com/watch?v=eHvkUEEnNWs
 
 
 
@@ -757,16 +781,48 @@ musics:
     artists:
       - name: Peter Hollens
         songs:
-          - title: I See Fire (Ed Sheeran)
+          - title: I See Fire (Cover of Ed Sheeran)
             youtube_link: https://www.youtube.com/watch?v=yymS1Pb7JfM
+          - title: Skyrim Theme
+            youtube_link: https://www.youtube.com/watch?v=nlCPOCwo3FY
+          - title: The Hanging Tree
+            youtube_link: https://www.youtube.com/watch?v=aJISG67FjeM
+          - title: Song of The Lonely Mountain - The Hobbit
+            youtube_link: https://www.youtube.com/watch?v=RI3fkqA9-IA
+          - title: From Now On - The Greatest Showman
+            youtube_link: https://www.youtube.com/watch?v=4F_Rikbar0Q
+          - title: HellFire - Hunchback of Notre Dame
+            youtube_link: https://www.youtube.com/watch?v=P3mees5Qoo4
+          - title: Hobbit Drinking Medley
+            youtube_link: https://www.youtube.com/watch?v=iUKjJn0rOec
+          - title: Aragorn’s Coronation - Lord of the Rings
+            youtube_link: https://www.youtube.com/watch?v=umo0tWczEQE
+          - title: The Sound of Silence
+            youtube_link: https://www.youtube.com/watch?v=3HboNZ8HFF8
+          - title: Desert Rose (Feat. Alaa Wardi)
+            youtube_link: https://www.youtube.com/watch?v=oqP9xuqWNww
       - name: Lindsey Stirling
         songs:
           - title: Shatter Me (Feat. Lzzy Hale)
             youtube_link: https://www.youtube.com/watch?v=49tpIMDy9BE
+          - title: Radioactive (Feat. Pentatonix)
+            youtube_link: https://www.youtube.com/watch?v=aE2GCa-_nyU
+          - title: Elements
+            youtube_link: https://www.youtube.com/watch?v=sf6LD2B_kDQ
+          - title: Crystallize
+            youtube_link: https://www.youtube.com/watch?v=aHjpOzsQ9YI
+          - title: Master of Tides
+            youtube_link: https://www.youtube.com/watch?v=RrutzRWXkKs
+          - title: Carol of the Bells
+            youtube_link: https://www.youtube.com/watch?v=EKkzbbLYPuI
+          - title: Roundtable Rival
+            youtube_link: https://www.youtube.com/watch?v=jvipPYFebWc
       - name: Mioune
         songs:
           - title: Fear Not This Night - Guild Wars 2
             youtube_link: https://www.youtube.com/watch?v=leVDYOg-43s
+          - title: This Silence Is Mine - Drag-On Dragoon 3
+            youtube_link:https://www.youtube.com/watch?v=DnHfI8n6cQc
       - name: Malukah
         songs:
           - title: The Dragonborn Comes - Skyrim Bard Song and Main Theme
